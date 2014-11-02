@@ -1,3 +1,105 @@
-<span>
-Install GALE source on Linux.....
-</span>
+<div>
+	<ol>
+		<li> 
+			<div class="instr-header">
+				Make sure that the Tomcat server is shutdown.			
+			</div>
+			<div class="instr-body">
+				Before the GALE server can be installed we have to make shure that the Tomcat server is shutdown. Shutting down the Tomcat server can be done by executing the following script:
+				<div class="code">
+					./tomcat/bin/shutdown.sh
+				</div>
+				After this script is executed it still can be the case that the Tomcat server is running. Therefore we have to check the Catalina logs for a line "INFO: Stopping service Catalina". The last lines of the logs can be shown as follows:
+				<div class="code">
+					tail ./tomcat/logs/catalina.out
+				</div>
+				If you can not find this line of code the Tomcat server is probably still running. Then you can check with the command 'top', 'htop' or 'ps aux | grep /etc/bin/java' if the process is still running and kill it within top or htop. With 'ps aux | grep /etc/bin/java' command you have to do this with the 'kill' command in combination with the PID of the /etc/bin/java process. 
+			</div>
+		</li>
+	
+		<li> 
+			<div class="instr-header">
+				Download the Gale source files		
+			</div>
+			<div class="instr-body">
+				We use the hsqldb version of the GALE framework. This version uses a regular file to store its database. For small applications setting up a MySql server is not necessary and a hsqldb will be sufficient.
+				To download the GALE source execute the following command:
+				<div class="code">
+					wget http://wwwis.win.tue.nl/2ID56/gale-source.zip
+				</div>
+			</div>
+		</li>
+	
+		<li> 
+			<div class="instr-header">
+				Extract the zip file		
+			</div>
+			<div class="instr-body">
+				To extract the gale-source.zip file execute the following command:
+				<div class="code">
+					unzip gale-source.zip
+				</div>
+			</div>
+		</li>
+		
+		<li> 
+			<div class="instr-header">
+				Go into the gale-source/master folder		
+			</div>
+			<div class="instr-body">
+				<div class="code">
+					cd gale-source/master
+				</div>
+			</div>
+		</li>	
+
+		<li> 
+			<div class="instr-header">
+				Compile the GALE framework using maven
+			</div>
+			<div class="instr-body">
+				To compile the GALE framework the following command should be executed:
+				<div class="code">
+					mvn install
+				</div>
+				Executing this command can last for several minutes and should finish without showing any errors. In the end an 'Reactor summary' will be shown where every component of the GALE framework should be compiled sucessfully as shown in the following screenshot:
+				<img src="../../AIGG/img/linux-gale-source-6.png"></img>
+			</div>
+		</li>	
+		
+		<li> 
+			<div class="instr-header">
+				Go back to the GALE root folder		
+			</div>
+			<div class="instr-body">
+				<div class="code">
+					cd ~/gale
+				</div>
+			</div>
+		</li>
+		
+		<li> 
+			<div class="instr-header">
+				Create the GALE home directory:
+			</div>
+			<div class="instr-body">
+				<div class="code">
+					mkdir gale-home
+				</div>
+			</div>
+		</li>
+		
+		<li> 
+			<div class="instr-header">
+				Set the GALE_HOME environment variable:
+			</div>
+			<div class="instr-body">
+				The GALE_HOME environment variable has to point to the home directory of GALE. First execute the following command to set the GALE_HOME environment variable
+				<div class="code">
+					export GALE_HOME=~/gale/gale-home
+				</div>
+				Now also whenever a new terminal is opened this environment variable should be known. To do this the ~/.bashrc file should be altered.....
+			</div>
+		</li>
+	</ol>
+</div>

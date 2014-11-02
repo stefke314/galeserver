@@ -76,7 +76,7 @@ div#gale-content {
 }
 .info-wrapper label .more { margin: -.1em 0 .35em; transition: 3s; }
 .info-wrapper input[type=checkbox]:checked ~ .info {
-    max-height: 100em;
+    max-height: 200em;
 }
 .info-wrapper input[type=checkbox]:not(:checked )~ .info {
     max-height: 10px;
