@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:gale="http://gale.tue.nl/adaptation">
+	
+	<div class="installation-info info-wrapper">
+	
+		<input type="checkbox" id="showhide">
+			<gale:attr-variable name="id" expr="&quot;showhide-&quot; + ${?title}"/>
+		</input>
+	
+		<!-- making it possible to hide the info when needed -->
+		<gale:if expr="${#visited} > 1">
+			<gale:then> <!-- The page is visited before -->
+				<div id="hide-info">
+					<h3>Installation information for <gale:variable expr="${?title}"/></h3>
+					You already have installed <gale:variable expr="${?title}"/>.
+					<label for="showhide">
+						<gale:attr-variable name="for" expr="&quot;showhide-&quot; + ${?title}"/>
+						<div class="more"> Show instructions.</div>
+						<div> Hide instructions.</div>
+					</label>
+				</div>
+			</gale:then>
+			
+		</gale:if>
+		
+		<div id="display-info">
+			<!-- when not showing the first time, add info class to hide it by default -->
+			<gale:attr-variable name="class" expr="${#visited} > 1? &quot;info&quot; : &quot;&quot;"/>
+		
+			<h1><gale:variable expr="${?title}"/></h1>
+
+			<h2>Steps</h2>
+			<div class="section">
+				<gale:object><gale:attr-variable name="data" expr="${?info}" /></gale:object>
+				<!--<img><gale:attr-variable name="src" expr="${?image}"/></img> -->
+			</div>
+		</div>
+			
+	</div>
+	
+	<script>
+		$(".installation-info#show-info").click(function() {
+			$content = $("#display-info");
+			$content.hide();
+		});
+	</script>
+
+</html>

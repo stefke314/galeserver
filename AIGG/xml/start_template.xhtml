@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:gale="http://gale.tue.nl/adaptation">
+	
+<link rel="stylesheet" type="text/css">
+	<gale:attr-variable name="href" expr="&quot;$\{home}/&quot; + ${?style}"/>
+</link>
+
+<h1><gale:variable expr="${?title}"/></h1>
+
+<p>
+<gale:object><gale:attr-variable name="data" expr="${?introduction}" /></gale:object>
+</p>
+
+<!-- display the installation instruction for all the OS -->
+<div id="installation-links">
+	<gale:for var="os" expr="${OperatingSystem&lt;-(parent)}">
+		<div class="os-installations">
+			<gale:attr-variable name="id" expr="${%os?title}"/>
+			<p>Installation Instructions for <gale:variable expr="${%os?title}"/>:</p>
+			
+			<!-- looping over all the instructions -->
+			<gale:for var="system" expr="${%os&lt;-(parent)}">
+				<div class="system-link">
+					<gale:a>
+						<gale:variable expr="${%system?title}"/>
+						<gale:attr-variable name="href" expr="&quot;%system&quot;"/>
+					</gale:a>
+				</div>
+			</gale:for>
+			
+		</div>
+	</gale:for>
+</div>
+
+</html>

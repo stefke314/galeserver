@@ -1,0 +1,17 @@
+#installation-links {
+	margin-left:30;
+	margin-right:30;
+	width:1000px;
+}
+
+.os-installations#Windows {
+	float:left;
+}
+
+.os-installations#Linux {
+	float:right;
+}
+
+.system-link {
+	margin-left:20;
+}
