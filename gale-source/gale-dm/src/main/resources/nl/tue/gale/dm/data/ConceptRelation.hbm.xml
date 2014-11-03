@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="nl.tue.gale.dm.data">
+    <class name="ConceptRelation" table="conceptrelation">
+        <id name="id" column="id"><generator class="native"/></id>
+        <property name="name" column="name" length="128" not-null="true"/>
+        <many-to-one name="inConcept" column="inconcept" not-null="true"/>
+        <many-to-one name="outConcept" column="outconcept" not-null="true"/>
+        <map name="properties" table="cr_properties" cascade="all" lazy="false">
+            <key column="cr"/>
+            <map-key column="mkey" type="string" length="384"/>
+            <element column="mvalue" type="text" not-null="true"/>
+        </map>
+    </class>
+</hibernate-mapping>

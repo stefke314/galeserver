@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="nl.tue.gale.dm.data">
+    <class name="Concept" table="concept">
+        <id name="uriString" column="uri" length="512"/>
+        <set name="attributes" inverse="true" cascade="all" lazy="false">
+            <key column="concept"/>
+            <one-to-many class="Attribute"/>
+        </set>
+        <property name="eventCode" column="eventcode" type="text"/>
+        <map name="properties" table="concept_properties" cascade="all" lazy="false">
+            <key column="concept"/>
+            <map-key column="mkey" type="string" length="384"/>
+            <element column="mvalue" type="text" not-null="true"/>
+        </map>
+        <set name="outCR" inverse="true" order-by="id" cascade="delete">
+            <key column="inConcept"/>
+            <one-to-many class="ConceptRelation"/>
+        </set>
+        <set name="inCR" inverse="true" order-by="id" cascade="delete">
+            <key column="outConcept"/>
+            <one-to-many class="ConceptRelation"/>
+        </set>
+    </class>
+</hibernate-mapping>

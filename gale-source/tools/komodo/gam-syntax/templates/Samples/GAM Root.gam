@@ -1,0 +1,31 @@
+//inherit event code by default
+$options {default.properties "event"}
+
+//root concept for the entire application
+_concept {
+    //the resource is named after the concept and has the extension .xhtml
+    #resource ='${.}.getUri()+".xhtml"'
+    
+    //keep track of user clicking ;)
+    #[visited]:Integer
+    event 'if (${#suitability}) ${#visited}++;'
+    
+    //calculate knowledge using children defined by 'parent' relations
+    #read:Boolean ="${#visited} > 0"
+    #knowledge:Double ='avg(${<=(parent)#knowledge}, (${#read}?1:0))'
+    
+    //determine suitability based on prerequisite relations
+    #suitability:Boolean ='and(${<=(prerequisite)#understood})'
+    #understood:Boolean ='${#knowledge} > 0.7'
+}
+
+main {
+    ->(extends)_concept
+    <-(parent)child
+}
+
+//this child concept is unsuitable until you know about the main concept
+child {
+    ->(extends)_concept
+    ->(prerequisite)main
+}

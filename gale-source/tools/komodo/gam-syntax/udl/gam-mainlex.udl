@@ -1,0 +1,102 @@
+language GAM
+
+pattern WS = '\s\t\r\n'
+
+initial IN_BLOCK
+
+state IN_BLOCK:
+'//' : paint(upto, CSL_NUMBER), spush_check(IN_BLOCK), => IN_COMMENT
+'$options' : paint(include, CSL_WORD), => IN_BLOCK
+'{' : paint(upto, CSL_NUMBER), paint(include, CSL_OPERATOR), spush_check(IN_BLOCK) => IN_CONCEPT
+
+state IN_CONCEPT:
+'//' : paint(upto, CSL_DEFAULT), spush_check(IN_CONCEPT), => IN_COMMENT
+'}' : paint(upto, CSL_DEFAULT), paint(include, CSL_OPERATOR), spop_check, => IN_BLOCK
+/->|<-/ : paint(upto, CSL_DEFAULT), paint(include, CSL_OPERATOR), => IN_REL
+'#' : paint(upto, CSL_DEFAULT), paint(include, CSL_OPERATOR), => IN_ATTR
+/[^$WS]/ : paint(upto, CSL_DEFAULT), spush_check(IN_CONCEPT), => IN_PROP
+
+state IN_REL:
+/\([^$WS]+\)/ : paint(include, CSL_WORD), => IN_REL1
+
+state IN_REL1:
+'//' : paint(upto, CSL_DEFAULT), spush_check(IN_REL1), => IN_COMMENT
+/[^\s\t\r\n\}]+/ : paint(include, CSL_NUMBER), => IN_REL2
+
+state IN_REL2:
+'//' : paint(upto, CSL_DEFAULT), spush_check(IN_REL2), => IN_COMMENT
+'{' : paint(upto, CSL_NUMBER), paint(include, CSL_OPERATOR), spush_check(IN_CONCEPT), => IN_CONCEPT
+/[^$WS]/ : paint(upto, CSL_NUMBER), redo => IN_CONCEPT
+
+state IN_ATTR:
+'[' : paint(upto, CSL_DEFAULT), paint(include, CSL_OPERATOR), => IN_ATTR_PERSISTENT
+':' : paint(upto, CSL_IDENTIFIER), paint(include, CSL_OPERATOR), => IN_ATTR_TYPE
+'}' : paint(upto, CSL_IDENTIFIER), redo, => IN_ATTR_OPERATOR
+/[$WS]/ : paint(include, CSL_IDENTIFIER), => IN_ATTR_OPERATOR
+
+state IN_ATTR_PERSISTENT:
+/\][\s]*:/ : paint(upto, CSL_IDENTIFIER), paint(include, CSL_OPERATOR), => IN_ATTR_TYPE
+']' : paint(upto, CSL_IDENTIFIER), paint(include, CSL_OPERATOR), => IN_ATTR_OPERATOR
+
+state IN_ATTR_TYPE:
+/[\w\.]+/ : paint(include, CSL_WORD), => IN_ATTR_OPERATOR
+
+state IN_ATTR_OPERATOR:
+'//' : paint(upto, CSL_DEFAULT), spush_check(IN_ATTR_OPERATOR), => IN_COMMENT
+"'" : paint(upto, CSL_DEFAULT), spush_check(IN_ATTR_BLOCK), => IN_QUOTE_SINGLE
+'"' : paint(upto, CSL_DEFAULT), spush_check(IN_ATTR_BLOCK), => IN_QUOTE_DOUBLE
+'`' : paint(upto, CSL_DEFAULT), spush_check(IN_ATTR_BLOCK), => IN_QUOTE_BACK
+"='" : paint(upto, CSL_DEFAULT), spush_check(IN_ATTR_BLOCK), => IN_RQUOTE_SINGLE
+'="' : paint(upto, CSL_DEFAULT), spush_check(IN_ATTR_BLOCK), => IN_RQUOTE_DOUBLE
+'=`' : paint(upto, CSL_DEFAULT), spush_check(IN_ATTR_BLOCK), => IN_RQUOTE_BACK
+/[\&\|\+]/ : paint(upto, CSL_DEFAULT), paint(include, CSL_REGEX), => IN_ATTR_ISOPERATOR
+/[^$WS]/ : paint(upto, CSL_DEFAULT), redo, => IN_ATTR_BLOCK
+
+state IN_ATTR_ISOPERATOR:
+"='" : paint(upto, CSL_DEFAULT), spush_check(IN_ATTR_BLOCK), => IN_RQUOTE_SINGLE
+'="' : paint(upto, CSL_DEFAULT), spush_check(IN_ATTR_BLOCK), => IN_RQUOTE_DOUBLE
+'=`' : paint(upto, CSL_DEFAULT), spush_check(IN_ATTR_BLOCK), => IN_RQUOTE_BACK
+
+state IN_ATTR_BLOCK:
+'//' : paint(upto, CSL_DEFAULT), spush_check(IN_ATTR_BLOCK), => IN_COMMENT
+'{' : paint(upto, CSL_DEFAULT), paint(include, CSL_OPERATOR), => IN_ATTR_CODE
+/[^$WS]/ : paint(upto, CSL_DEFAULT), redo, => IN_CONCEPT
+
+state IN_ATTR_CODE:
+'//' : paint(upto, CSL_DEFAULT), spush_check(IN_ATTR_CODE), => IN_COMMENT
+'}' : paint(upto, CSL_DEFAULT), paint(include, CSL_OPERATOR), => IN_CONCEPT
+/[^$WS]/ : paint(upto, CSL_DEFAULT), spush_check(IN_ATTR_CODE), => IN_PROP
+
+state IN_PROP:
+/[^$WS]+/ : paint(include, CSL_IDENTIFIER), => IN_PROP_OPERATOR
+
+state IN_PROP_OPERATOR:
+'+' : paint(include, CSL_OPERATOR), => IN_PROP_VALUE
+/[^$WS]/ : redo, => IN_PROP_VALUE
+
+state IN_PROP_VALUE:
+'//' : paint(upto, CSL_DEFAULT), spush_check(IN_PROP_VALUE), => IN_COMMENT
+"'" : paint(upto, CSL_DEFAULT), => IN_QUOTE_SINGLE
+'"' : paint(upto, CSL_DEFAULT), => IN_QUOTE_DOUBLE
+'`' : paint(upto, CSL_DEFAULT), => IN_QUOTE_BACK
+
+state IN_QUOTE_SINGLE:
+"'" : paint(include, CSL_STRING), spop_check, => IN_CONCEPT
+
+state IN_QUOTE_DOUBLE:
+'"' : paint(include, CSL_STRING), spop_check, => IN_CONCEPT
+
+state IN_QUOTE_BACK:
+'`' : paint(include, CSL_STRING), spop_check, => IN_CONCEPT
+
+state IN_RQUOTE_SINGLE:
+"'" : paint(include, CSL_REGEX), spop_check, => IN_CONCEPT
+
+state IN_RQUOTE_DOUBLE:
+'"' : paint(include, CSL_REGEX), spop_check, => IN_CONCEPT
+
+state IN_RQUOTE_BACK:
+'`' : paint(include, CSL_REGEX), spop_check, => IN_CONCEPT
+
+state IN_COMMENT:
+/[^\n\r]*/ : paint(include, CSL_COMMENT), spop_check => IN_CONCEPT

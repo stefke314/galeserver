@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="nl.tue.gale.dm.data">
+    <class name="Attribute" table="attribute">
+        <id name="id" column="id"><generator class="native"/></id>
+        <property name="name" column="name" length="128" not-null="true"/>
+        <many-to-one name="concept" column="concept"/>
+        <property name="type" column="atype" length="256" not-null="true"/>
+        <map name="properties" table="attribute_properties" cascade="all" lazy="false">
+            <key column="attribute"/>
+            <map-key column="mkey" type="string" length="384"/>
+            <element column="mvalue" type="text" not-null="true"/>
+        </map>
+        <property name="defaultCode" column="defaultcode" type="text"/>
+        <property name="eventCode" column="eventcode" type="text"/>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="nl.tue.gale.um.data">
+	<class name="EntityValue" table="entityValue">
+		<id name="uriString" column="uri" length="512" />
+		<property name="valueData" column="valueData" length="16777215" />
+		<property name="valueNumber" column="valueNumber" />
+		<property name="valueString" column="valueString" />
+		<property name="userId" column="userId" />
+		<property name="attributeUri" column="attributeUri" />
+	</class>
+</hibernate-mapping>

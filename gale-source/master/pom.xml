@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>nl.tue.gale</groupId>
+	<version>1.2-SNAPSHOT</version>
+	<artifactId>master</artifactId>
+	<name>Gale master pom</name>
+	<packaging>pom</packaging>
+	<modules>
+		<module>../gale-common</module>
+		<module>../gale-event</module>
+		<module>../gale-geb</module>
+		<module>../gale-dm</module>
+		<module>../gale-um</module>
+		<module>../gale-ae</module>
+		<module>../gale-conversion</module>
+		<module>../gale-tools</module>
+		<module>../gale</module>
+	</modules>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.mortbay.jetty</groupId>
+				<artifactId>maven-jetty-plugin</artifactId>
+				<version>6.1.14</version>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-deploy-plugin</artifactId>
+				<version>2.7</version>
+				<configuration>
+					<skip>true</skip>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<executions>
+					<execution>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+		<extensions>
+			<extension>
+				<groupId>org.apache.maven.wagon</groupId>
+				<artifactId>wagon-ssh</artifactId>
+				<version>1.0</version>
+			</extension>
+		</extensions>
+	</build>
+	<repositories>
+		<repository>
+			<id>grappleRepository</id>
+			<name>Grapple Repository</name>
+			<url>http://gale.win.tue.nl/maven2</url>
+		</repository>
+	</repositories>
+	<distributionManagement>
+		<repository>
+			<uniqueVersion>false</uniqueVersion>
+			<id>gale-release</id>
+			<name>GALE Releases</name>
+			<url>scp://wwwis.win.tue.nl/home/gale/public_html/maven2</url>
+		</repository>
+		<snapshotRepository>
+			<uniqueVersion>false</uniqueVersion>
+			<id>gale-snap</id>
+			<name>GALE Snapshots</name>
+			<url>scp://wwwis.win.tue.nl/home/gale/public_html/maven2</url>
+		</snapshotRepository>
+	</distributionManagement>
+</project>

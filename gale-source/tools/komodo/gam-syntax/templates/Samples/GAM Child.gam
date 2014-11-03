@@ -1,0 +1,9 @@
+$options {default.properties "event"}
+
+_concept {
+    ->(extends)../_concept
+}
+
+child {
+    ->(extends)_concept
+}
