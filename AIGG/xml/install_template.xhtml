@@ -2,19 +2,36 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns:gale="http://gale.tue.nl/adaptation">
+	
+<gale:object data="gale:AIGG/xml/header.xhtml"/>
 
-<!-- This page contains the complete instructions for installing a system -->
-<h1>Installation of <gale:variable expr="${->(system)?title}"/> on <gale:variable expr="${->(forOS)?title}"/></h1>
+<div class="content">
+
+	<!-- This page contains the complete instructions for installing a system -->
+	<h1>Installation of <gale:variable expr="${->(system)?title}"/> on <gale:variable expr="${->(forOS)?title}"/></h1>
 
 
-<p>
-Please follow the installation instructions below.<br/>
-Systems you already have installed will not be shown by default.
-</p>
+	<p>
+	Please follow the installation instructions below.<br/>
+	Systems you already have installed will not be shown by default.
+	</p>
 
-<!-- all the systems this depends on -->
-<gale:for var="dependency" expr="${->(system)->(depends)}">
-	<gale:for var="install" expr="${%dependency&lt;-(system)}">
+	<!-- all the systems this depends on -->
+	<gale:for var="dependency" expr="${->(system)->(depends)}">
+		<gale:for var="install" expr="${%dependency&lt;-(system)}">
+			<gale:if expr="${%install->(forOS)}[0].equals(${->(forOS)}[0])">
+				<gale:then>
+					<gale:object>
+						<gale:attr-variable name="name" expr="${%install->(info)}[0].getUri()"/>
+					</gale:object>
+				</gale:then>
+			</gale:if>
+		</gale:for>
+	</gale:for>
+
+
+	<!-- plus the system itself -->
+	<gale:for var="install" expr="${->(system)&lt;-(system)}">
 		<gale:if expr="${%install->(forOS)}[0].equals(${->(forOS)}[0])">
 			<gale:then>
 				<gale:object>
@@ -23,18 +40,7 @@ Systems you already have installed will not be shown by default.
 			</gale:then>
 		</gale:if>
 	</gale:for>
-</gale:for>
-
-
-<!-- plus the system itself -->
-<gale:for var="install" expr="${->(system)&lt;-(system)}">
-	<gale:if expr="${%install->(forOS)}[0].equals(${->(forOS)}[0])">
-		<gale:then>
-			<gale:object>
-				<gale:attr-variable name="name" expr="${%install->(info)}[0].getUri()"/>
-			</gale:object>
-		</gale:then>
-	</gale:if>
-</gale:for>
+	
+</div>
 
 </html>

@@ -91,7 +91,6 @@ div#gale-content {
 	border-width: thin;
 	border-color: grey;
 	
-	width: 70%;
 	margin: 10px;
 	padding: 10px;
 }
@@ -102,10 +101,11 @@ div#gale-content {
 .instr-header {
 	margin-bottom: 10px;
 	margin-top: 10px;
-	background-color: #dddddd;
+	background-color: #06C;
 	font-weight: bold;
 	font-size: 14pt;
 	padding: 5px;
+	color: white;
 }
 
 .instr-body {
@@ -119,4 +119,28 @@ div#gale-content {
 	font-family: 'Courier new',serif;
 	margin: 10px;
 	padding: 10px;
+}
+
+.header {
+	background: #06C;
+	height: 45px;
+	position: relative;
+}
+.header .name {
+	font-size: 30px;
+	color: white;
+	display: block;
+	line-height: inherit;
+	width: auto;
+	padding: 5px;
+}
+
+.content{
+	margin-top: 5em;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+h1 {
+	color: #06C;
 }
