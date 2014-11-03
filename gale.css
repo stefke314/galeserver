@@ -49,7 +49,7 @@ div#gale-content {
 
 /* css code to support functionality to expand code */
 .info-wrapper {
-    padding: 0 0 2em 0;
+    padding: 0 0 3em 0;
     position: relative;
 }
 .info {
@@ -61,7 +61,7 @@ div#gale-content {
 }
 .info-wrapper label {
     left: 50%;
-    bottom: 1.5em;
+    bottom: 0.5em;
     width: 9em;
     height: 1.25em;
     margin:  0 0 0 -2.5em;

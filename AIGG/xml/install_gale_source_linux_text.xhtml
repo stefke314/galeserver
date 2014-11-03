@@ -91,15 +91,91 @@
 		
 		<li> 
 			<div class="instr-header">
-				Set the GALE_HOME environment variable:
+				Set the GALE_HOME environment variable
 			</div>
 			<div class="instr-body">
 				The GALE_HOME environment variable has to point to the home directory of GALE. First execute the following command to set the GALE_HOME environment variable
 				<div class="code">
 					export GALE_HOME=~/gale/gale-home
 				</div>
-				Now also whenever a new terminal is opened this environment variable should be known. To do this the ~/.bashrc file should be altered.....
+				Now also whenever a new terminal is opened this environment variable should be known. To do this the ~/.bashrc file should be appended with the 'export GALE_HOME=~/gale/gale-home' line. This can be done with the following terminal command:
+				<div class="code">
+					echo "export GALE_HOME=~/gale/gale-home" >> ~/.bashrc
+				</div>
+				To check if this has succeeded you can use the tail command to see if the last line is really altered.
 			</div>
 		</li>
+		
+		<li> 
+			<div class="instr-header">
+				Copy the gale.war file to the gale-home folder
+			</div>
+			<div class="instr-body">
+				<div class="code">
+					cp ~/gale/gale-source/gale/target/gale.war ~/gale/gale-home
+				</div>
+			</div>
+		</li>
+		
+		<li> 
+			<div class="instr-header">
+				Extract the gale.war file
+			</div>
+			<div class="instr-body">
+				First go into the gale-home folder:
+				<div class="code">
+					cd ~/gale/gale-home
+				</div>
+				The gale.war file can then be extracted with the following command:
+				<div class="code">
+					jar xf gale.war
+				</div>
+			</div>
+		</li>
+		
+		<li> 
+			<div class="instr-header">
+				Copy the gale.war file to the tomcat/webapps/ folder
+			</div>
+			<div class="instr-body">
+				The gale.war file can be copied to the tomcat/webapps folder with the following command:
+				<div class="code">
+					cp ~/gale/gale-source/gale/target/gale.war ~/gale/tomcat/webapps/
+				</div>
+			</div>
+		</li>		
+				
+		<li> 
+			<div class="instr-header">
+				Start the Tomcat server
+			</div>
+			<div class="instr-body">
+				Now the Tomcat server can be started. When Tomcat boots it will detect the gale.war file in its webapps folder and will deploy it automatically. To start the Tomcat server execute the following command:
+				<div class="code">
+					~/gale/tomcat/bin/startup.sh
+				</div>
+				Deploying the gale.war file takes a while. To see the progress the catalina.log file can be followed with the following command:
+				<div class="code">
+					tail -f ~/gale/tomcat/bin/startup.sh
+				</div>
+				When the server is still starting you will see some startup messages occuring in the screen. After a while the there should occur a line like: "INFO: 'Server startup in ... ms' without other errors.
+			</div>
+		</li>
+					
+		<li> 
+			<div class="instr-header">
+				Check in the browser if the GALE page works.
+			</div>
+			<div class="instr-body">
+				Open your browser and type in the address bar localhost:8080/gale. You have to see a page similar to the following screenshot:
+				<div>
+					<img src="../../AIGG/img/linux-gale-source-11.png" width="700px"></img>
+				</div>
+			</div>
+		</li>
+		
+		
+		
+		
 	</ol>
 </div>

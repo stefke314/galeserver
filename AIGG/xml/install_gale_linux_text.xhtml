@@ -1,3 +1,117 @@
-<span>
-Install GALE on Linux.....
-</span>
+<div>
+	<ol>
+		<li> 
+			<div class="instr-header">
+				Make sure that the Tomcat server is shutdown.		
+			</div>
+			<div class="instr-body">
+				Before the GALE server can be installed we have to make sure that the Tomcat server is shutdown. Shutting down the Tomcat server can be done by executing the following script:
+				<div class="code">
+					./tomcat/bin/shutdown.sh
+				</div>
+				After this script is executed it still can be the case that the Tomcat server is running. Therefore we have to check the Catalina logs for a line "INFO: Stopping service Catalina". The last lines of the logs can be shown as follows:
+				<div class="code">
+					tail ./tomcat/logs/catalina.out
+				</div>
+				If you can not find this line of code the Tomcat server is probably still running. Then you can check with the command 'top', 'htop' or 'ps aux | grep /etc/bin/java' if the process is still running and kill it within top or htop. With 'ps aux | grep /etc/bin/java' command you have to do this with the 'kill' command in combination with the PID of the /etc/bin/java process. 
+			</div>
+		</li>
+		
+		<li> 
+			<div class="instr-header">
+				Download the Gale binary file		
+			</div>
+			<div class="instr-body">
+				We use the hsqldb version of the GALE framework. This version uses a regular file to store its database. For small applications setting up a MySql server is not necessary and a hsqldb will be sufficient.
+				To download the GALE binary execute the following command:
+				<div class="code">
+					wget <font color="red">@@@@@@@@ Some URL @@@@@@@@@</font>
+				</div>
+			</div>
+		</li>
+	
+		<li> 
+			<div class="instr-header">
+				Extract the zip file		
+			</div>
+			<div class="instr-body">
+				To extract the <font color="red">@@@@@@@@ Some file @@@@@@@@@</font> execute the following command:
+				<div class="code">
+					unzip <font color="red">@@@@@@@@ Some file @@@@@@@@@</font>
+				</div>
+			</div>
+		</li>
+		
+		<li> 
+			<div class="instr-header">
+				Copy the gale.war file to the gale-home folder
+			</div>
+			<div class="instr-body">
+				<div class="code">
+					cp ~/gale/gale.war ~/gale/gale-home
+				</div>
+			</div>
+		</li>
+		
+		<li> 
+			<div class="instr-header">
+				Extract the gale.war file
+			</div>
+			<div class="instr-body">
+				First go into the gale-home folder:
+				<div class="code">
+					cd ~/gale/gale-home
+				</div>
+				The gale.war file can then be extracted with the following command:
+				<div class="code">
+					jar xf gale.war
+				</div>
+			</div>
+		</li>
+		
+		<li> 
+			<div class="instr-header">
+				Copy the gale.war file to the tomcat/webapps/ folder
+			</div>
+			<div class="instr-body">
+				The gale.war file can be copied to the tomcat/webapps folder with the following command:
+				<div class="code">
+					cp ~/gale/gale.war ~/gale/tomcat/webapps/
+				</div>
+			</div>
+		</li>		
+				
+		<li> 
+			<div class="instr-header">
+				Start the Tomcat server
+			</div>
+			<div class="instr-body">
+				Now the Tomcat server can be started. When Tomcat boots it will detect the gale.war file in its webapps folder and will deploy it automatically. To start the Tomcat server execute the following command:
+				<div class="code">
+					~/gale/tomcat/bin/startup.sh
+				</div>
+				Deploying the gale.war file takes a while. To see the progress the catalina.log file can be followed with the following command:
+				<div class="code">
+					tail -f ~/gale/tomcat/bin/startup.sh
+				</div>
+				When the server is still starting you will see some startup messages occuring in the screen. After a while the there should occur a line like: "INFO: 'Server startup in ... ms' without other errors.
+			</div>
+		</li>
+					
+		<li> 
+			<div class="instr-header">
+				Check in the browser if the GALE page works.
+			</div>
+			<div class="instr-body">
+				Open your browser and type in the address bar localhost:8080/gale. You have to see a page similar to the following screenshot:
+				<div>
+					<img src="../../AIGG/img/linux-gale-source-11.png" width="700px"></img>
+				</div>
+			</div>
+		</li>
+		
+		
+		
+		
+	</ol>
+</div>
