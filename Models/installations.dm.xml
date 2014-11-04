@@ -13,7 +13,7 @@
   <body>
     <dm>
       <vdex>
-        <term x="256.75" y="-239.60000000000002">
+        <term x="256.75" y="-219.6">
           <termIdentifier>34113FCC-9A1E-4286-E758-189BDD6EAE6A</termIdentifier>
           <caption>
             <langstring language="x-none">InstallTomcatWindows</langstring>
@@ -75,7 +75,7 @@
             </interpretationNote>
           </mediaDescriptor>
         </term>
-        <term x="276.1" y="67.6">
+        <term x="276.1" y="87.6">
           <termIdentifier>E266B76B-72C9-E089-00C0-189BEA10AC1F</termIdentifier>
           <caption>
             <langstring language="x-none">InstallTomcatLinux</langstring>
@@ -137,7 +137,7 @@
             </interpretationNote>
           </mediaDescriptor>
         </term>
-        <term x="269" y="-166.5">
+        <term x="269" y="-146.5">
           <termIdentifier>FC669A22-C014-7AC0-977C-189BF2AF8732</termIdentifier>
           <caption>
             <langstring language="x-none">InstallGALEWindows</langstring>
@@ -199,7 +199,7 @@
             </interpretationNote>
           </mediaDescriptor>
         </term>
-        <term x="269" y="-5.5">
+        <term x="269" y="14.5">
           <termIdentifier>F6D4875A-1D14-5798-20AC-189E4CAA10A0</termIdentifier>
           <caption>
             <langstring language="x-none">InstallGALELinux</langstring>
@@ -261,7 +261,7 @@
             </interpretationNote>
           </mediaDescriptor>
         </term>
-        <term x="272" y="-82.5">
+        <term x="272" y="-62.5">
           <termIdentifier>20ADFAFC-C8AF-40F3-021C-189EA8FAC23E</termIdentifier>
           <caption>
             <langstring language="x-none">InstallJDKWindows</langstring>
@@ -323,7 +323,7 @@
             </interpretationNote>
           </mediaDescriptor>
         </term>
-        <term x="261" y="319.75">
+        <term x="261" y="339.75">
           <termIdentifier>736E8204-25E9-66E5-C22D-18A47A7DBB44</termIdentifier>
           <caption>
             <langstring language="x-none">InstallJDKLinux</langstring>
@@ -385,7 +385,7 @@
             </interpretationNote>
           </mediaDescriptor>
         </term>
-        <term x="268.1" y="153.7">
+        <term x="268.1" y="173.7">
           <termIdentifier>5433A894-4D37-9C67-C003-18A4B6867FAB</termIdentifier>
           <caption>
             <langstring language="x-none">InstallMavenWindows</langstring>
@@ -447,7 +447,7 @@
             </interpretationNote>
           </mediaDescriptor>
         </term>
-        <term x="274.1" y="232.75">
+        <term x="274.1" y="252.75">
           <termIdentifier>7CDFAEDC-E952-B0C3-A6C7-18A71D341B40</termIdentifier>
           <caption>
             <langstring language="x-none">InstallGALESourceWindows</langstring>
@@ -509,7 +509,7 @@
             </interpretationNote>
           </mediaDescriptor>
         </term>
-        <term x="260.75" y="433.5">
+        <term x="260.75" y="453.5">
           <termIdentifier>E015832C-0057-A412-5127-18A7ABD6FFE7</termIdentifier>
           <caption>
             <langstring language="x-none">InstallGALESourceLinux</langstring>
@@ -571,7 +571,7 @@
             </interpretationNote>
           </mediaDescriptor>
         </term>
-        <term x="266.75" y="373.5">
+        <term x="266.75" y="393.5">
           <termIdentifier>2A8B6117-1A98-2173-385E-18A809C1F5A3</termIdentifier>
           <caption>
             <langstring language="x-none">InstallMavenLinux</langstring>
@@ -633,7 +633,7 @@
             </interpretationNote>
           </mediaDescriptor>
         </term>
-        <term x="35.25" y="31.6">
+        <term x="35.25" y="51.6">
           <termIdentifier>D6A85CA2-46AB-5387-BF30-18A89C4EAEB9</termIdentifier>
           <caption>
             <langstring language="x-none">InstallationInstruction</langstring>
@@ -680,7 +680,7 @@
             </interpretationNote>
           </mediaDescriptor>
         </term>
-        <term x="80" y="-146.25">
+        <term x="80" y="-126.25">
           <termIdentifier>FAEB50D2-C05C-2127-A872-18AF1E4C9407</termIdentifier>
           <caption>
             <langstring language="x-none">Windows</langstring>
@@ -727,7 +727,7 @@
             </interpretationNote>
           </mediaDescriptor>
         </term>
-        <term x="78" y="196.2">
+        <term x="78" y="216.2">
           <termIdentifier>BB70052D-4D09-54CD-5059-18B0130A0D59</termIdentifier>
           <caption>
             <langstring language="x-none">Linux</langstring>
@@ -774,7 +774,7 @@
             </interpretationNote>
           </mediaDescriptor>
         </term>
-        <term x="448" y="-190.5">
+        <term x="448" y="-170.5">
           <termIdentifier>1E72B9FA-3E0F-F803-B77E-18B200C238CD</termIdentifier>
           <caption>
             <langstring language="x-none">GALE</langstring>
@@ -821,7 +821,7 @@
             </interpretationNote>
           </mediaDescriptor>
         </term>
-        <term x="449.75" y="-8.5">
+        <term x="449.75" y="11.5">
           <termIdentifier>1392609E-DB5E-A10D-4080-18B342DC0DDB</termIdentifier>
           <caption>
             <langstring language="x-none">Tomcat</langstring>
@@ -853,7 +853,7 @@
             </interpretationNote>
           </mediaDescriptor>
         </term>
-        <term x="522.75" y="108.35">
+        <term x="522.75" y="128.35">
           <termIdentifier>FDB35219-C12F-39D8-2DB4-18B3F1547379</termIdentifier>
           <caption>
             <langstring language="x-none">JDK</langstring>
@@ -885,7 +885,7 @@
             </interpretationNote>
           </mediaDescriptor>
         </term>
-        <term x="527.75" y="292.5">
+        <term x="527.75" y="312.5">
           <termIdentifier>B827A054-08EA-0DC0-0DAB-18B5D965F696</termIdentifier>
           <caption>
             <langstring language="x-none">Maven</langstring>
@@ -901,7 +901,7 @@
             </interpretationNote>
           </mediaDescriptor>
         </term>
-        <term x="418.75" y="307.5">
+        <term x="418.75" y="327.5">
           <termIdentifier>AD64F54A-1DC9-0EAE-01D1-18BBE595619F</termIdentifier>
           <caption>
             <langstring language="x-none">GALESource</langstring>
@@ -917,7 +917,7 @@
             </interpretationNote>
           </mediaDescriptor>
         </term>
-        <term x="-100" y="20.65">
+        <term x="-100" y="40.6">
           <termIdentifier>2323768C-86C8-CE24-903F-18C09DBE0A02</termIdentifier>
           <caption>
             <langstring language="x-none">OperatingSystem</langstring>
@@ -964,7 +964,7 @@
             </interpretationNote>
           </mediaDescriptor>
         </term>
-        <term x="618.8" y="24.95">
+        <term x="618.8" y="44.95">
           <termIdentifier>F4F5320E-6DD7-C070-4535-18C17146A86D</termIdentifier>
           <caption>
             <langstring language="x-none">System</langstring>
@@ -1011,7 +1011,7 @@
             </interpretationNote>
           </mediaDescriptor>
         </term>
-        <term x="96.75" y="-253.60000000000002">
+        <term x="96.75" y="-233.60000000000002">
           <termIdentifier>87910EC2-2BEC-547D-3239-3C47CF07E85B</termIdentifier>
           <caption>
             <langstring language="x-none">Start</langstring>
@@ -1058,7 +1058,7 @@
             </interpretationNote>
           </mediaDescriptor>
         </term>
-        <term x="383" y="-238.5">
+        <term x="383" y="-218.5">
           <termIdentifier>006C114E-8F6A-0CF7-4C1A-6B5D4D7DE4F8</termIdentifier>
           <caption>
             <langstring language="x-none">InstallTomcatWindowsInfo</langstring>
@@ -1240,7 +1240,7 @@
             </interpretationNote>
           </mediaDescriptor>
         </term>
-        <term x="374" y="-159.5">
+        <term x="374" y="-139.5">
           <termIdentifier>8020C924-A3AB-1043-6548-6B5DC9FF6C4B</termIdentifier>
           <caption>
             <langstring language="x-none">InstallGALEWindowsInfo</langstring>
@@ -1452,7 +1452,7 @@
             </interpretationNote>
           </mediaDescriptor>
         </term>
-        <term x="361" y="-89.5">
+        <term x="361" y="-69.5">
           <termIdentifier>10BED74C-E537-FF97-62E1-6B5EEC1C9135</termIdentifier>
           <caption>
             <langstring language="x-none">InstallJDKWindowsInfo</langstring>
@@ -1649,7 +1649,7 @@
             </interpretationNote>
           </mediaDescriptor>
         </term>
-        <term x="360" y="-6.5">
+        <term x="360" y="13.5">
           <termIdentifier>2882D90B-199D-F963-BB47-6B5F2FDCBCC0</termIdentifier>
           <caption>
             <langstring language="x-none">InstallGALELinuxInfo</langstring>
@@ -1696,7 +1696,7 @@
             </interpretationNote>
           </mediaDescriptor>
         </term>
-        <term x="357" y="68.5">
+        <term x="357" y="88.5">
           <termIdentifier>BBD473CF-5596-D3DF-DB9F-6B5F77CFD415</termIdentifier>
           <caption>
             <langstring language="x-none">InstallTomcatLinuxInfo</langstring>
@@ -1743,7 +1743,7 @@
             </interpretationNote>
           </mediaDescriptor>
         </term>
-        <term x="365" y="153.5">
+        <term x="365" y="173.5">
           <termIdentifier>E585928F-8D72-D557-0762-6B5FB26F5978</termIdentifier>
           <caption>
             <langstring language="x-none">InstallMavenWindowsInfo</langstring>
@@ -1940,7 +1940,7 @@
             </interpretationNote>
           </mediaDescriptor>
         </term>
-        <term x="385" y="234.5">
+        <term x="385" y="254.5">
           <termIdentifier>01F59952-9372-E251-4EB5-6B5FEB1DFB08</termIdentifier>
           <caption>
             <langstring language="x-none">InstallGALESourceWindowsInfo</langstring>
@@ -2107,7 +2107,7 @@
             </interpretationNote>
           </mediaDescriptor>
         </term>
-        <term x="339" y="318.5">
+        <term x="339" y="338.5">
           <termIdentifier>120BA77E-C260-D739-E546-6B602CB899F1</termIdentifier>
           <caption>
             <langstring language="x-none">InstallJDKLinuxInfo</langstring>
@@ -2154,7 +2154,7 @@
             </interpretationNote>
           </mediaDescriptor>
         </term>
-        <term x="348" y="386.5">
+        <term x="348" y="406.5">
           <termIdentifier>ED7E33F1-B9CF-7488-E708-6B60700F666F</termIdentifier>
           <caption>
             <langstring language="x-none">InstallMavenLinuxInfo</langstring>
@@ -2162,15 +2162,46 @@
           <description>
             <langstring language="x-none"/>
           </description>
-          <metadata/>
+          <metadata>
+            <concept>
+              <lom>
+                <general>
+                  <description>
+                    <langstring>new Description</langstring>
+                  </description>
+                  <catalogentry>
+                    <catalog>title</catalog>
+                    <entry>
+                      <langstring>Maven installation instructions</langstring>
+                    </entry>
+                  </catalogentry>
+                </general>
+              </lom>
+            </concept>
+            <concept>
+              <lom>
+                <general>
+                  <description>
+                    <langstring>new Description</langstring>
+                  </description>
+                  <catalogentry>
+                    <catalog>info</catalog>
+                    <entry>
+                      <langstring>../../AIGG/xml/install_maven_linux_text.xhtml</langstring>
+                    </entry>
+                  </catalogentry>
+                </general>
+              </lom>
+            </concept>
+          </metadata>
           <mediaDescriptor>
-            <mediaLocator>gale:/AIGG/xml/install_info_template.xhtml</mediaLocator>
+            <mediaLocator>gale:/AIGG/xml/install_info_template2.xhtml</mediaLocator>
             <interpretationNote>
               <langstring language="x-none">ADB2A083-529C-36D9-A543-6B6BB79BF7A9</langstring>
             </interpretationNote>
           </mediaDescriptor>
         </term>
-        <term x="337" y="446.5">
+        <term x="337" y="466.5">
           <termIdentifier>1E19FCAA-D8AA-0D7D-CC1F-6B60A9EF5A18</termIdentifier>
           <caption>
             <langstring language="x-none">InstallGALESourceLinuxInfo</langstring>

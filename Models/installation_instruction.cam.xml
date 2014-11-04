@@ -1,0 +1,3143 @@
+<model>
+  <header>
+    <modeluuid>CE9D8049-A7A5-29FF-71D0-2E5046F719C2</modeluuid>
+    <modeltype>cam</modeltype>
+    <authoruuid>be1c9b1a-b38a-4d27-aa12-94328b022bd8</authoruuid>
+    <authorname>stef</authorname>
+    <authorisation>nopermission</authorisation>
+    <creationtime>1413821253262</creationtime>
+    <updatetime>1415026347953</updatetime>
+    <title>Installation Instructions</title>
+    <description>null</description>
+  </header>
+  <body>
+    <cam>
+      <camInternal>
+        <crt type="crt">
+          <camCrtUuid>87AE1E2B-4B0A-86C8-A7FF-2E5343F54730</camCrtUuid>
+          <uuid>382B63EE-6467-7AC2-404F-77212F3F8BA6</uuid>
+          <shape>diamond</shape>
+          <colour>#000000</colour>
+          <parameter name="" type=""/>
+          <position>
+            <x>56.5</x>
+            <y>212</y>
+          </position>
+          <camSocket>
+            <uuid>F07B0C2D-6218-40FA-23D5-2E5343F5B079</uuid>
+            <socketid>f67ed906-ab49-604a-ad0e-1238199ba589</socketid>
+            <colour>0</colour>
+            <shape>SocketShape</shape>
+            <position>
+              <x>113.5</x>
+              <y>197</y>
+            </position>
+            <entity>
+              <dmId>87910EC2-2BEC-547D-3239-3C47CF07E85B</dmId>
+            </entity>
+          </camSocket>
+        </crt>
+        <crt type="crt">
+          <camCrtUuid>B977A14F-7741-8FFA-1BBD-2E7C19D99452</camCrtUuid>
+          <uuid>FF78DE75-B152-2F3D-DAB2-124C537D20A3</uuid>
+          <shape>diamond</shape>
+          <colour>#000000</colour>
+          <parameter name="level" type="float">10</parameter>
+          <position>
+            <x>82.5</x>
+            <y>274</y>
+          </position>
+          <camSocket>
+            <uuid>81F5BAC8-9B8D-30B1-CFCC-2E7C19D9C850</uuid>
+            <socketid>e44eb8bd-ed64-8122-b9b7-1251f34cd392</socketid>
+            <colour>0</colour>
+            <shape>SocketShape</shape>
+            <position>
+              <x>294.5</x>
+              <y>302</y>
+            </position>
+            <entity>
+              <dmId>F4F5320E-6DD7-C070-4535-18C17146A86D</dmId>
+            </entity>
+            <entity>
+              <dmId>2323768C-86C8-CE24-903F-18C09DBE0A02</dmId>
+            </entity>
+            <entity>
+              <dmId>AD64F54A-1DC9-0EAE-01D1-18BBE595619F</dmId>
+            </entity>
+            <entity>
+              <dmId>B827A054-08EA-0DC0-0DAB-18B5D965F696</dmId>
+            </entity>
+            <entity>
+              <dmId>FDB35219-C12F-39D8-2DB4-18B3F1547379</dmId>
+            </entity>
+            <entity>
+              <dmId>1392609E-DB5E-A10D-4080-18B342DC0DDB</dmId>
+            </entity>
+            <entity>
+              <dmId>1E72B9FA-3E0F-F803-B77E-18B200C238CD</dmId>
+            </entity>
+            <entity>
+              <dmId>BB70052D-4D09-54CD-5059-18B0130A0D59</dmId>
+            </entity>
+            <entity>
+              <dmId>FAEB50D2-C05C-2127-A872-18AF1E4C9407</dmId>
+            </entity>
+            <entity>
+              <dmId>2A8B6117-1A98-2173-385E-18A809C1F5A3</dmId>
+            </entity>
+            <entity>
+              <dmId>E015832C-0057-A412-5127-18A7ABD6FFE7</dmId>
+            </entity>
+            <entity>
+              <dmId>7CDFAEDC-E952-B0C3-A6C7-18A71D341B40</dmId>
+            </entity>
+            <entity>
+              <dmId>5433A894-4D37-9C67-C003-18A4B6867FAB</dmId>
+            </entity>
+            <entity>
+              <dmId>736E8204-25E9-66E5-C22D-18A47A7DBB44</dmId>
+            </entity>
+            <entity>
+              <dmId>20ADFAFC-C8AF-40F3-021C-189EA8FAC23E</dmId>
+            </entity>
+            <entity>
+              <dmId>F6D4875A-1D14-5798-20AC-189E4CAA10A0</dmId>
+            </entity>
+            <entity>
+              <dmId>FC669A22-C014-7AC0-977C-189BF2AF8732</dmId>
+            </entity>
+            <entity>
+              <dmId>E266B76B-72C9-E089-00C0-189BEA10AC1F</dmId>
+            </entity>
+            <entity>
+              <dmId>34113FCC-9A1E-4286-E758-189BDD6EAE6A</dmId>
+            </entity>
+          </camSocket>
+        </crt>
+        <crt type="crt">
+          <camCrtUuid>DBDF87FE-42A6-7C5A-19F4-2E7C9D04A2F7</camCrtUuid>
+          <uuid>F3B24AC1-B322-64DC-1373-4E9A5984B1C3</uuid>
+          <shape>diamond</shape>
+          <colour>#000000</colour>
+          <parameter name="" type=""/>
+          <position>
+            <x>116.5</x>
+            <y>367.5</y>
+          </position>
+          <camSocket>
+            <uuid>A1288AB1-47C5-38F4-39FF-2E7C9D042742</uuid>
+            <socketid>b69dad2e-66a5-23b7-e9ee-4e9a82b6e2a2</socketid>
+            <colour>0</colour>
+            <shape>SocketShape</shape>
+            <position>
+              <x>328.5</x>
+              <y>390</y>
+            </position>
+            <entity>
+              <dmId>F4F5320E-6DD7-C070-4535-18C17146A86D</dmId>
+            </entity>
+            <entity>
+              <dmId>2323768C-86C8-CE24-903F-18C09DBE0A02</dmId>
+            </entity>
+            <entity>
+              <dmId>AD64F54A-1DC9-0EAE-01D1-18BBE595619F</dmId>
+            </entity>
+            <entity>
+              <dmId>B827A054-08EA-0DC0-0DAB-18B5D965F696</dmId>
+            </entity>
+            <entity>
+              <dmId>FDB35219-C12F-39D8-2DB4-18B3F1547379</dmId>
+            </entity>
+            <entity>
+              <dmId>1392609E-DB5E-A10D-4080-18B342DC0DDB</dmId>
+            </entity>
+            <entity>
+              <dmId>1E72B9FA-3E0F-F803-B77E-18B200C238CD</dmId>
+            </entity>
+            <entity>
+              <dmId>BB70052D-4D09-54CD-5059-18B0130A0D59</dmId>
+            </entity>
+            <entity>
+              <dmId>FAEB50D2-C05C-2127-A872-18AF1E4C9407</dmId>
+            </entity>
+            <entity>
+              <dmId>2A8B6117-1A98-2173-385E-18A809C1F5A3</dmId>
+            </entity>
+            <entity>
+              <dmId>E015832C-0057-A412-5127-18A7ABD6FFE7</dmId>
+            </entity>
+            <entity>
+              <dmId>7CDFAEDC-E952-B0C3-A6C7-18A71D341B40</dmId>
+            </entity>
+            <entity>
+              <dmId>5433A894-4D37-9C67-C003-18A4B6867FAB</dmId>
+            </entity>
+            <entity>
+              <dmId>736E8204-25E9-66E5-C22D-18A47A7DBB44</dmId>
+            </entity>
+            <entity>
+              <dmId>20ADFAFC-C8AF-40F3-021C-189EA8FAC23E</dmId>
+            </entity>
+            <entity>
+              <dmId>F6D4875A-1D14-5798-20AC-189E4CAA10A0</dmId>
+            </entity>
+            <entity>
+              <dmId>FC669A22-C014-7AC0-977C-189BF2AF8732</dmId>
+            </entity>
+            <entity>
+              <dmId>E266B76B-72C9-E089-00C0-189BEA10AC1F</dmId>
+            </entity>
+            <entity>
+              <dmId>34113FCC-9A1E-4286-E758-189BDD6EAE6A</dmId>
+            </entity>
+          </camSocket>
+        </crt>
+        <crt type="crt">
+          <camCrtUuid>168CF293-AECF-D0E1-13FC-61DA2397DBE7</camCrtUuid>
+          <uuid>32E3F743-A479-D615-16DA-D3015A19E8FA</uuid>
+          <shape>diamond</shape>
+          <colour>#000000</colour>
+          <parameter name="increment" type="integer">1</parameter>
+          <position>
+            <x>75.5</x>
+            <y>104.5</y>
+          </position>
+          <camSocket>
+            <uuid>9438A475-671B-FA6D-28CE-61DA23986D36</uuid>
+            <socketid>acbfe9c9-77ff-4c48-662f-d301e117f7d5</socketid>
+            <colour>0</colour>
+            <shape>SocketShape</shape>
+            <position>
+              <x>239.5</x>
+              <y>86</y>
+            </position>
+            <entity>
+              <dmId>006C114E-8F6A-0CF7-4C1A-6B5D4D7DE4F8</dmId>
+            </entity>
+            <entity>
+              <dmId>8020C924-A3AB-1043-6548-6B5DC9FF6C4B</dmId>
+            </entity>
+            <entity>
+              <dmId>10BED74C-E537-FF97-62E1-6B5EEC1C9135</dmId>
+            </entity>
+            <entity>
+              <dmId>2882D90B-199D-F963-BB47-6B5F2FDCBCC0</dmId>
+            </entity>
+            <entity>
+              <dmId>BBD473CF-5596-D3DF-DB9F-6B5F77CFD415</dmId>
+            </entity>
+            <entity>
+              <dmId>E585928F-8D72-D557-0762-6B5FB26F5978</dmId>
+            </entity>
+            <entity>
+              <dmId>01F59952-9372-E251-4EB5-6B5FEB1DFB08</dmId>
+            </entity>
+            <entity>
+              <dmId>120BA77E-C260-D739-E546-6B602CB899F1</dmId>
+            </entity>
+            <entity>
+              <dmId>ED7E33F1-B9CF-7488-E708-6B60700F666F</dmId>
+            </entity>
+            <entity>
+              <dmId>1E19FCAA-D8AA-0D7D-CC1F-6B60A9EF5A18</dmId>
+            </entity>
+          </camSocket>
+        </crt>
+        <crtModel>
+          <model>
+            <header>
+              <modeluuid>382B63EE-6467-7AC2-404F-77212F3F8BA6</modeluuid>
+              <modeltype>crt</modeltype>
+              <authoruuid>ac46c2db-08e5-4bf4-acb5-5ebaab1ee002</authoruuid>
+              <authorname/>
+              <authorisation>readwrite</authorisation>
+              <creationtime>1286193884782</creationtime>
+              <updatetime>1295713047040</updatetime>
+              <title>G-Start</title>
+              <description>GRAPPLE Basic: Marks the concept as entry point for the course</description>
+              <used>1</used>
+              <selected>0</selected>
+            </header>
+            <body>
+              <crt>
+                <comment/>
+                <crtdialect>CRT</crtdialect>
+                <parameter name="" type=""/>
+                <visualrepresentation>
+                  <colour>#000000</colour>
+                  <shape>diamond</shape>
+                </visualrepresentation>
+                <adaptationbehaviour>
+                  <code type="gale"><![CDATA[
+%self% {
+  start `true`
+}
+]]></code>
+                  <usermodel/>
+                </adaptationbehaviour>
+                <constraints>
+                  <loopsallowed>true</loopsallowed>
+                  <attributeconstraints/>
+                  <umvariableconstraints/>
+                </constraints>
+                <crtsockets>
+                  <socket type="self">
+                    <uuid>f67ed906-ab49-604a-ad0e-1238199ba589</uuid>
+                    <name>self</name>
+                    <mincardinality>1</mincardinality>
+                    <maxcardinality>*</maxcardinality>
+                  </socket>
+                </crtsockets>
+                <associateddmrelations/>
+              </crt>
+            </body>
+          </model>
+          <model>
+            <header>
+              <modeluuid>FF78DE75-B152-2F3D-DAB2-124C537D20A3</modeluuid>
+              <modeltype>crt</modeltype>
+              <authoruuid>ac46c2db-08e5-4bf4-acb5-5ebaab1ee002</authoruuid>
+              <authorname/>
+              <authorisation>readwrite</authorisation>
+              <creationtime>1284502213193</creationtime>
+              <updatetime>1295877731623</updatetime>
+              <title>G-Knowledge-Update</title>
+              <description>GRAPPLE Basic: Knowledge is generated by visiting the concept (also maintains a visited attribute like G-Visit)</description>
+              <used>1</used>
+              <selected>0</selected>
+            </header>
+            <body>
+              <crt>
+                <comment/>
+                <crtdialect>CRT</crtdialect>
+                <parameter name="level" type="float">10</parameter>
+                <visualrepresentation>
+                  <colour>#000000</colour>
+                  <shape>diamond</shape>
+                </visualrepresentation>
+                <adaptationbehaviour>
+                  <code type="gale"><![CDATA[
+%self% {
+  event + `
+    if (${#suitability}) {
+      #{#visited, ${#visited}+1};
+      #{#own_knowledge, 100};
+    }
+    if (!${#suitability} && ${#own_knowledge} < %level%)
+      #{#own_knowledge, %level%};
+  `
+
+  #own_knowledge {event + `
+    #{#knowledge, ${#knowledge}+changed.diff/(${<-(parent)}.length+1)};
+  `}
+}]]></code>
+                  <usermodel>
+                    <umvariable>
+                      <umvarname>knowledge</umvarname>
+                      <socket>self</socket>
+                      <public>false</public>
+                      <persistent>true</persistent>
+                      <location>
+                        <web/>
+                        <remotecourse>
+                          <remotecoursename/>
+                          <resource>
+                            <resourceuniqueid/>
+                            <resourcename/>
+                          </resource>
+                        </remotecourse>
+                      </location>
+                      <type>float</type>
+                      <range>
+                        <from>0</from>
+                        <to>100</to>
+                      </range>
+                      <default><![CDATA[0]]></default>
+                    </umvariable>
+                    <umvariable>
+                      <umvarname>own_knowledge</umvarname>
+                      <socket>self</socket>
+                      <public>false</public>
+                      <persistent>true</persistent>
+                      <location>
+                        <web/>
+                        <remotecourse>
+                          <remotecoursename/>
+                          <resource>
+                            <resourceuniqueid/>
+                            <resourcename/>
+                          </resource>
+                        </remotecourse>
+                      </location>
+                      <type>float</type>
+                      <range>
+                        <from>0</from>
+                        <to>100</to>
+                      </range>
+                      <default><![CDATA[0]]></default>
+                    </umvariable>
+                    <umvariable>
+                      <umvarname>visited</umvarname>
+                      <socket>self</socket>
+                      <public>false</public>
+                      <persistent>true</persistent>
+                      <location>
+                        <web/>
+                        <remotecourse>
+                          <remotecoursename/>
+                          <resource>
+                            <resourceuniqueid/>
+                            <resourcename/>
+                          </resource>
+                        </remotecourse>
+                      </location>
+                      <type>integer</type>
+                      <range/>
+                      <default><![CDATA[0]]></default>
+                    </umvariable>
+                  </usermodel>
+                </adaptationbehaviour>
+                <constraints>
+                  <loopsallowed>false</loopsallowed>
+                  <attributeconstraints/>
+                  <umvariableconstraints/>
+                </constraints>
+                <crtsockets>
+                  <socket type="self">
+                    <uuid>e44eb8bd-ed64-8122-b9b7-1251f34cd392</uuid>
+                    <name>self</name>
+                    <mincardinality>1</mincardinality>
+                    <maxcardinality>*</maxcardinality>
+                  </socket>
+                </crtsockets>
+                <associateddmrelations/>
+              </crt>
+            </body>
+          </model>
+          <model>
+            <header>
+              <modeluuid>F3B24AC1-B322-64DC-1373-4E9A5984B1C3</modeluuid>
+              <modeltype>crt</modeltype>
+              <authoruuid>ac46c2db-08e5-4bf4-acb5-5ebaab1ee002</authoruuid>
+              <authorname/>
+              <authorisation>readwrite</authorisation>
+              <creationtime>1289808926864</creationtime>
+              <updatetime>1295713204273</updatetime>
+              <title>G-Knowledge-Propagation-Parent</title>
+              <description>GRAPPLE Basic: Knowledge is propagated to one parent concept</description>
+              <used>1</used>
+              <selected>0</selected>
+            </header>
+            <body>
+              <crt>
+                <comment>This PRT arranges for knowledge changes to be propagated upwards in the concept hierarchy. Knowledge is propagated to the parent, and this update triggers the PRT update for that parent.
+The basic idea is for this PRT to be automatically applied to the domain relation "parent" but alas this does not work yet, so all concepts need to be placed in the socket manually.
+This is a "convenience" PRT: knowledge can also be propagated using the "G-Knowledge-Propagation" PRT but this is a binary PRT that requires the creation of many instance whereas the G-knowledge-Propagation-Parent PRT does the propagation automatically for all parent relationships by inserting concepts into the socket of a single instance.</comment>
+                <crtdialect>CRT</crtdialect>
+                <parameter name="" type=""/>
+                <visualrepresentation>
+                  <colour>#000000</colour>
+                  <shape>diamond</shape>
+                </visualrepresentation>
+                <adaptationbehaviour>
+                  <code type="gale"><![CDATA[
+%self% {
+  #knowledge {event + `
+    if (${->(parent)}.length > 0)
+      #{->(parent)#knowledge, ${->(parent)#knowledge}+changed.diff/(${->(parent)<-(parent)}.length+1)};
+  `}
+}]]></code>
+                  <usermodel>
+                    <umvariable>
+                      <umvarname>knowledge</umvarname>
+                      <socket>self</socket>
+                      <public>false</public>
+                      <persistent>true</persistent>
+                      <location>
+                        <web/>
+                        <remotecourse>
+                          <remotecoursename/>
+                          <resource>
+                            <resourceuniqueid/>
+                            <resourcename/>
+                          </resource>
+                        </remotecourse>
+                      </location>
+                      <type>float</type>
+                      <range/>
+                      <default><![CDATA[0]]></default>
+                    </umvariable>
+                  </usermodel>
+                </adaptationbehaviour>
+                <constraints>
+                  <loopsallowed>false</loopsallowed>
+                  <attributeconstraints/>
+                  <umvariableconstraints/>
+                </constraints>
+                <crtsockets>
+                  <socket type="self">
+                    <uuid>b69dad2e-66a5-23b7-e9ee-4e9a82b6e2a2</uuid>
+                    <name>self</name>
+                    <mincardinality>*</mincardinality>
+                    <maxcardinality>*</maxcardinality>
+                  </socket>
+                </crtsockets>
+                <associateddmrelations>
+                  <relationshiptype>parent</relationshiptype>
+                </associateddmrelations>
+              </crt>
+            </body>
+          </model>
+          <model>
+            <header>
+              <modeluuid>32E3F743-A479-D615-16DA-D3015A19E8FA</modeluuid>
+              <modeltype>crt</modeltype>
+              <authoruuid>ac46c2db-08e5-4bf4-acb5-5ebaab1ee002</authoruuid>
+              <authorname/>
+              <authorisation>readwrite</authorisation>
+              <creationtime>1287735302479</creationtime>
+              <updatetime>1295713223379</updatetime>
+              <title>G-Visit</title>
+              <description>GRAPPLE Basic: Inreases the 'visited' counter upon concept access</description>
+              <used>1</used>
+              <selected>0</selected>
+            </header>
+            <body>
+              <crt>
+                <comment/>
+                <crtdialect>CRT</crtdialect>
+                <parameter name="increment" type="integer">1</parameter>
+                <visualrepresentation>
+                  <colour>#000000</colour>
+                  <shape>diamond</shape>
+                </visualrepresentation>
+                <adaptationbehaviour>
+                  <code type="gale"><![CDATA[
+%self% {
+  event + `#{#visited, ${#visited}+%increment%};`
+}]]></code>
+                  <usermodel>
+                    <umvariable>
+                      <umvarname>visited</umvarname>
+                      <socket>self</socket>
+                      <public>false</public>
+                      <persistent>true</persistent>
+                      <location>
+                        <web/>
+                        <remotecourse>
+                          <remotecoursename/>
+                          <resource>
+                            <resourceuniqueid/>
+                            <resourcename/>
+                          </resource>
+                        </remotecourse>
+                      </location>
+                      <type>integer</type>
+                      <range/>
+                      <default><![CDATA[0]]></default>
+                    </umvariable>
+                  </usermodel>
+                </adaptationbehaviour>
+                <constraints>
+                  <loopsallowed>false</loopsallowed>
+                  <attributeconstraints/>
+                  <umvariableconstraints/>
+                </constraints>
+                <crtsockets>
+                  <socket type="self">
+                    <uuid>acbfe9c9-77ff-4c48-662f-d301e117f7d5</uuid>
+                    <name>self</name>
+                    <mincardinality>1</mincardinality>
+                    <maxcardinality>*</maxcardinality>
+                  </socket>
+                </crtsockets>
+                <associateddmrelations/>
+              </crt>
+            </body>
+          </model>
+        </crtModel>
+        <domainModel>
+          <model>
+            <header>
+              <modeluuid>85804106-1695-3B30-1DA4-189BBF0A18ED</modeluuid>
+              <modeltype>dm</modeltype>
+              <authoruuid>be1c9b1a-b38a-4d27-aa12-94328b022bd8</authoruuid>
+              <authorname>stef</authorname>
+              <authorisation>readwrite</authorisation>
+              <creationtime>1413457100455</creationtime>
+              <updatetime>0</updatetime>
+              <title>Installation Instructions</title>
+              <description>null</description>
+            </header>
+            <body>
+              <dm>
+                <vdex>
+                  <term x="256.75" y="-219.6">
+                    <termIdentifier>34113FCC-9A1E-4286-E758-189BDD6EAE6A</termIdentifier>
+                    <caption>
+                      <langstring language="x-none">InstallTomcatWindows</langstring>
+                    </caption>
+                    <description>
+                      <langstring language="x-none"/>
+                    </description>
+                    <metadata>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/install_tomcat_win_text.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>title</catalog>
+                              <entry>
+                                <langstring>Install Tomcat on Windows</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>order</catalog>
+                              <entry>
+                                <langstring>2</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                    </metadata>
+                    <mediaDescriptor>
+                      <mediaLocator>gale:/AIGG/xml/install_template.xhtml</mediaLocator>
+                      <interpretationNote>
+                        <langstring language="x-none">5F62ACCC-A428-FBD5-877D-2F2C2CF0919F</langstring>
+                      </interpretationNote>
+                    </mediaDescriptor>
+                  </term>
+                  <term x="276.1" y="87.6">
+                    <termIdentifier>E266B76B-72C9-E089-00C0-189BEA10AC1F</termIdentifier>
+                    <caption>
+                      <langstring language="x-none">InstallTomcatLinux</langstring>
+                    </caption>
+                    <description>
+                      <langstring language="x-none"/>
+                    </description>
+                    <metadata>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/install_tomcat_linux_text.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>title</catalog>
+                              <entry>
+                                <langstring>Install Tomcat on Linux</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>order</catalog>
+                              <entry>
+                                <langstring>2</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                    </metadata>
+                    <mediaDescriptor>
+                      <mediaLocator>gale:/AIGG/xml/install_template.xhtml</mediaLocator>
+                      <interpretationNote>
+                        <langstring language="x-none">07BCCAEC-CF39-4E96-71C8-2F3AC90B2836</langstring>
+                      </interpretationNote>
+                    </mediaDescriptor>
+                  </term>
+                  <term x="269" y="-146.5">
+                    <termIdentifier>FC669A22-C014-7AC0-977C-189BF2AF8732</termIdentifier>
+                    <caption>
+                      <langstring language="x-none">InstallGALEWindows</langstring>
+                    </caption>
+                    <description>
+                      <langstring language="x-none"/>
+                    </description>
+                    <metadata>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/install_gale_win_text.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>title</catalog>
+                              <entry>
+                                <langstring>Install GALE on Windows</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>order</catalog>
+                              <entry>
+                                <langstring>3</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                    </metadata>
+                    <mediaDescriptor>
+                      <mediaLocator>gale:/AIGG/xml/install_template.xhtml</mediaLocator>
+                      <interpretationNote>
+                        <langstring language="x-none">53F83331-4555-E8D9-40F6-2F3A7B2E8F42</langstring>
+                      </interpretationNote>
+                    </mediaDescriptor>
+                  </term>
+                  <term x="269" y="14.5">
+                    <termIdentifier>F6D4875A-1D14-5798-20AC-189E4CAA10A0</termIdentifier>
+                    <caption>
+                      <langstring language="x-none">InstallGALELinux</langstring>
+                    </caption>
+                    <description>
+                      <langstring language="x-none"/>
+                    </description>
+                    <metadata>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/install_gale_linux_text.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>title</catalog>
+                              <entry>
+                                <langstring>Install GALE on Linux</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>order</catalog>
+                              <entry>
+                                <langstring>3</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                    </metadata>
+                    <mediaDescriptor>
+                      <mediaLocator>gale:/AIGG/xml/install_template.xhtml</mediaLocator>
+                      <interpretationNote>
+                        <langstring language="x-none">DD1088CB-2423-B537-8DAB-2F3AB5385F84</langstring>
+                      </interpretationNote>
+                    </mediaDescriptor>
+                  </term>
+                  <term x="272" y="-62.5">
+                    <termIdentifier>20ADFAFC-C8AF-40F3-021C-189EA8FAC23E</termIdentifier>
+                    <caption>
+                      <langstring language="x-none">InstallJDKWindows</langstring>
+                    </caption>
+                    <description>
+                      <langstring language="x-none"/>
+                    </description>
+                    <metadata>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/install_jdk_win_text.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>title</catalog>
+                              <entry>
+                                <langstring>Install JDK on Windows</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>order</catalog>
+                              <entry>
+                                <langstring>1</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                    </metadata>
+                    <mediaDescriptor>
+                      <mediaLocator>gale:/AIGG/xml/install_template.xhtml</mediaLocator>
+                      <interpretationNote>
+                        <langstring language="x-none">90D205D4-5FE4-48A5-1BA8-2F3AA11EF472</langstring>
+                      </interpretationNote>
+                    </mediaDescriptor>
+                  </term>
+                  <term x="261" y="339.75">
+                    <termIdentifier>736E8204-25E9-66E5-C22D-18A47A7DBB44</termIdentifier>
+                    <caption>
+                      <langstring language="x-none">InstallJDKLinux</langstring>
+                    </caption>
+                    <description>
+                      <langstring language="x-none"/>
+                    </description>
+                    <metadata>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/install_jdk_linux_text.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>title</catalog>
+                              <entry>
+                                <langstring>Install JDK on Linux</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>order</catalog>
+                              <entry>
+                                <langstring>1</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                    </metadata>
+                    <mediaDescriptor>
+                      <mediaLocator>gale:/AIGG/xml/install_template.xhtml</mediaLocator>
+                      <interpretationNote>
+                        <langstring language="x-none">AEE9FDE9-D0F7-2E80-8DD4-2F3B295EF7BB</langstring>
+                      </interpretationNote>
+                    </mediaDescriptor>
+                  </term>
+                  <term x="268.1" y="173.7">
+                    <termIdentifier>5433A894-4D37-9C67-C003-18A4B6867FAB</termIdentifier>
+                    <caption>
+                      <langstring language="x-none">InstallMavenWindows</langstring>
+                    </caption>
+                    <description>
+                      <langstring language="x-none"/>
+                    </description>
+                    <metadata>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/install_maven_win_text.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>title</catalog>
+                              <entry>
+                                <langstring>Install Maven on Windows</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>order</catalog>
+                              <entry>
+                                <langstring>4</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                    </metadata>
+                    <mediaDescriptor>
+                      <mediaLocator>gale:/AIGG/xml/install_template.xhtml</mediaLocator>
+                      <interpretationNote>
+                        <langstring language="x-none">340730A9-46B2-71BC-14D0-2F3B022C0915</langstring>
+                      </interpretationNote>
+                    </mediaDescriptor>
+                  </term>
+                  <term x="274.1" y="252.75">
+                    <termIdentifier>7CDFAEDC-E952-B0C3-A6C7-18A71D341B40</termIdentifier>
+                    <caption>
+                      <langstring language="x-none">InstallGALESourceWindows</langstring>
+                    </caption>
+                    <description>
+                      <langstring language="x-none"/>
+                    </description>
+                    <metadata>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/install_gale_source_win_text.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>title</catalog>
+                              <entry>
+                                <langstring>Install GALE extention from source on Windows</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>order</catalog>
+                              <entry>
+                                <langstring>5</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                    </metadata>
+                    <mediaDescriptor>
+                      <mediaLocator>gale:/AIGG/xml/install_template.xhtml</mediaLocator>
+                      <interpretationNote>
+                        <langstring language="x-none">FDD0D0BC-2A29-C88E-4BE6-2F3B16630AF3</langstring>
+                      </interpretationNote>
+                    </mediaDescriptor>
+                  </term>
+                  <term x="260.75" y="453.5">
+                    <termIdentifier>E015832C-0057-A412-5127-18A7ABD6FFE7</termIdentifier>
+                    <caption>
+                      <langstring language="x-none">InstallGALESourceLinux</langstring>
+                    </caption>
+                    <description>
+                      <langstring language="x-none"/>
+                    </description>
+                    <metadata>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>title</catalog>
+                              <entry>
+                                <langstring>Install GALE extention from source on Linux</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/install_gale_source_linux_text.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>order</catalog>
+                              <entry>
+                                <langstring>5</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                    </metadata>
+                    <mediaDescriptor>
+                      <mediaLocator>gale:/AIGG/xml/install_template.xhtml</mediaLocator>
+                      <interpretationNote>
+                        <langstring language="x-none">2D1F9CE8-BE14-D3A6-BD95-2F3B3CE57BF3</langstring>
+                      </interpretationNote>
+                    </mediaDescriptor>
+                  </term>
+                  <term x="266.75" y="393.5">
+                    <termIdentifier>2A8B6117-1A98-2173-385E-18A809C1F5A3</termIdentifier>
+                    <caption>
+                      <langstring language="x-none">InstallMavenLinux</langstring>
+                    </caption>
+                    <description>
+                      <langstring language="x-none"/>
+                    </description>
+                    <metadata>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/install_maven_linux_text.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>title</catalog>
+                              <entry>
+                                <langstring>Install Maven on Linux</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>order</catalog>
+                              <entry>
+                                <langstring>4</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                    </metadata>
+                    <mediaDescriptor>
+                      <mediaLocator>gale:/AIGG/xml/install_template.xhtml</mediaLocator>
+                      <interpretationNote>
+                        <langstring language="x-none">3C168555-2D26-604C-B9F7-2F3B4DEB32AA</langstring>
+                      </interpretationNote>
+                    </mediaDescriptor>
+                  </term>
+                  <term x="35.25" y="51.6">
+                    <termIdentifier>D6A85CA2-46AB-5387-BF30-18A89C4EAEB9</termIdentifier>
+                    <caption>
+                      <langstring language="x-none">InstallationInstruction</langstring>
+                    </caption>
+                    <description>
+                      <langstring language="x-none"/>
+                    </description>
+                    <metadata>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring/>
+                            </description>
+                            <catalogentry>
+                              <catalog>info</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/instruction_text.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring/>
+                            </description>
+                            <catalogentry>
+                              <catalog>title</catalog>
+                              <entry>
+                                <langstring>Installation Instruction</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                    </metadata>
+                    <mediaDescriptor>
+                      <mediaLocator>gale:/AIGG/xml/instruction_template.xhtml</mediaLocator>
+                      <interpretationNote>
+                        <langstring language="x-none">558B2F67-A149-2D4B-651D-2F1CE10BBBE2</langstring>
+                      </interpretationNote>
+                    </mediaDescriptor>
+                  </term>
+                  <term x="80" y="-126.25">
+                    <termIdentifier>FAEB50D2-C05C-2127-A872-18AF1E4C9407</termIdentifier>
+                    <caption>
+                      <langstring language="x-none">Windows</langstring>
+                    </caption>
+                    <description>
+                      <langstring language="x-none"/>
+                    </description>
+                    <metadata>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/os_win_text.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>title</catalog>
+                              <entry>
+                                <langstring>Windows</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                    </metadata>
+                    <mediaDescriptor>
+                      <mediaLocator>gale:/AIGG/xml/os_template.xhtml</mediaLocator>
+                      <interpretationNote>
+                        <langstring language="x-none">4157899B-B491-4C5F-E0F5-2F53170C4870</langstring>
+                      </interpretationNote>
+                    </mediaDescriptor>
+                  </term>
+                  <term x="78" y="216.2">
+                    <termIdentifier>BB70052D-4D09-54CD-5059-18B0130A0D59</termIdentifier>
+                    <caption>
+                      <langstring language="x-none">Linux</langstring>
+                    </caption>
+                    <description>
+                      <langstring language="x-none"/>
+                    </description>
+                    <metadata>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/os_linux_text.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>title</catalog>
+                              <entry>
+                                <langstring>Linux</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                    </metadata>
+                    <mediaDescriptor>
+                      <mediaLocator>gale:/AIGG/xml/os_template.xhtml</mediaLocator>
+                      <interpretationNote>
+                        <langstring language="x-none">EBF96022-8B86-AB29-8182-2F532BEAD116</langstring>
+                      </interpretationNote>
+                    </mediaDescriptor>
+                  </term>
+                  <term x="448" y="-170.5">
+                    <termIdentifier>1E72B9FA-3E0F-F803-B77E-18B200C238CD</termIdentifier>
+                    <caption>
+                      <langstring language="x-none">GALE</langstring>
+                    </caption>
+                    <description>
+                      <langstring language="x-none"/>
+                    </description>
+                    <metadata>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>help_tomcat</catalog>
+                              <entry>
+                                <langstring>Tomcat</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>next</catalog>
+                              <entry>
+                                <langstring>Maven</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                    </metadata>
+                    <mediaDescriptor>
+                      <mediaLocator>gale:/AIGG/xml/system_template.xhtml</mediaLocator>
+                      <interpretationNote>
+                        <langstring language="x-none">D4B6CD91-14CD-AE07-A7E3-2F5892100B0D</langstring>
+                      </interpretationNote>
+                    </mediaDescriptor>
+                  </term>
+                  <term x="449.75" y="11.5">
+                    <termIdentifier>1392609E-DB5E-A10D-4080-18B342DC0DDB</termIdentifier>
+                    <caption>
+                      <langstring language="x-none">Tomcat</langstring>
+                    </caption>
+                    <description>
+                      <langstring language="x-none"/>
+                    </description>
+                    <metadata>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>next</catalog>
+                              <entry>
+                                <langstring>GALE</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                    </metadata>
+                    <mediaDescriptor>
+                      <mediaLocator>gale:/AIGG/xml/system_template.xhtml</mediaLocator>
+                      <interpretationNote>
+                        <langstring language="x-none">8FEFE616-48CE-60DD-99D3-2F58A37E5D95</langstring>
+                      </interpretationNote>
+                    </mediaDescriptor>
+                  </term>
+                  <term x="522.75" y="128.35">
+                    <termIdentifier>FDB35219-C12F-39D8-2DB4-18B3F1547379</termIdentifier>
+                    <caption>
+                      <langstring language="x-none">JDK</langstring>
+                    </caption>
+                    <description>
+                      <langstring language="x-none"/>
+                    </description>
+                    <metadata>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>next</catalog>
+                              <entry>
+                                <langstring>Tomcat</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                    </metadata>
+                    <mediaDescriptor>
+                      <mediaLocator>gale:/AIGG/xml/system_template.xhtml</mediaLocator>
+                      <interpretationNote>
+                        <langstring language="x-none">750FD5E3-9966-C0E9-A4C6-2F58B88A4592</langstring>
+                      </interpretationNote>
+                    </mediaDescriptor>
+                  </term>
+                  <term x="527.75" y="312.5">
+                    <termIdentifier>B827A054-08EA-0DC0-0DAB-18B5D965F696</termIdentifier>
+                    <caption>
+                      <langstring language="x-none">Maven</langstring>
+                    </caption>
+                    <description>
+                      <langstring language="x-none"/>
+                    </description>
+                    <metadata/>
+                    <mediaDescriptor>
+                      <mediaLocator>gale:/AIGG/xml/system_template.xhtml</mediaLocator>
+                      <interpretationNote>
+                        <langstring language="x-none">9736666E-E532-DB7D-6665-2F58CDB53425</langstring>
+                      </interpretationNote>
+                    </mediaDescriptor>
+                  </term>
+                  <term x="418.75" y="327.5">
+                    <termIdentifier>AD64F54A-1DC9-0EAE-01D1-18BBE595619F</termIdentifier>
+                    <caption>
+                      <langstring language="x-none">GALESource</langstring>
+                    </caption>
+                    <description>
+                      <langstring language="x-none"/>
+                    </description>
+                    <metadata/>
+                    <mediaDescriptor>
+                      <mediaLocator>gale:/AIGG/xml/system_template.xhtml</mediaLocator>
+                      <interpretationNote>
+                        <langstring language="x-none">47F944BE-C29E-B942-CC26-2F58E1783B01</langstring>
+                      </interpretationNote>
+                    </mediaDescriptor>
+                  </term>
+                  <term x="-100" y="40.6">
+                    <termIdentifier>2323768C-86C8-CE24-903F-18C09DBE0A02</termIdentifier>
+                    <caption>
+                      <langstring language="x-none">OperatingSystem</langstring>
+                    </caption>
+                    <description>
+                      <langstring language="x-none"/>
+                    </description>
+                    <metadata>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/os_text.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>title</catalog>
+                              <entry>
+                                <langstring>Operating System</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                    </metadata>
+                    <mediaDescriptor>
+                      <mediaLocator>gale:/AIGG/xml/os_template.xhtml</mediaLocator>
+                      <interpretationNote>
+                        <langstring language="x-none">449F8740-B47E-9A0A-F796-2F52F98105AF</langstring>
+                      </interpretationNote>
+                    </mediaDescriptor>
+                  </term>
+                  <term x="618.8" y="44.95">
+                    <termIdentifier>F4F5320E-6DD7-C070-4535-18C17146A86D</termIdentifier>
+                    <caption>
+                      <langstring language="x-none">System</langstring>
+                    </caption>
+                    <description>
+                      <langstring language="x-none"/>
+                    </description>
+                    <metadata>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_text.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>title</catalog>
+                              <entry>
+                                <langstring>System</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                    </metadata>
+                    <mediaDescriptor>
+                      <mediaLocator>gale:/AIGG/xml/system_template.xhtml</mediaLocator>
+                      <interpretationNote>
+                        <langstring language="x-none">6A8C1C35-32C1-6C8B-F0CA-2F585660DA9F</langstring>
+                      </interpretationNote>
+                    </mediaDescriptor>
+                  </term>
+                  <term x="96.75" y="-233.60000000000002">
+                    <termIdentifier>87910EC2-2BEC-547D-3239-3C47CF07E85B</termIdentifier>
+                    <caption>
+                      <langstring language="x-none">Start</langstring>
+                    </caption>
+                    <description>
+                      <langstring language="x-none">Welcome screen that gives the user the option to  select the system to install.</langstring>
+                    </description>
+                    <metadata>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>introduction</catalog>
+                              <entry>
+                                <langstring>gale:AIGG/xml/start_text.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>style</catalog>
+                              <entry>
+                                <langstring>AIGG/css/start.css</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                    </metadata>
+                    <mediaDescriptor>
+                      <mediaLocator>gale:AIGG/xml/start_template.xhtml</mediaLocator>
+                      <interpretationNote>
+                        <langstring language="x-none">E425953C-8923-8F84-F532-3C48C3A632E7</langstring>
+                      </interpretationNote>
+                    </mediaDescriptor>
+                  </term>
+                  <term x="383" y="-218.5">
+                    <termIdentifier>006C114E-8F6A-0CF7-4C1A-6B5D4D7DE4F8</termIdentifier>
+                    <caption>
+                      <langstring language="x-none">InstallTomcatWindowsInfo</langstring>
+                    </caption>
+                    <description>
+                      <langstring language="x-none"/>
+                    </description>
+                    <metadata>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_tomcat_text.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>title</catalog>
+                              <entry>
+                                <langstring>Tomcat</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>order</catalog>
+                              <entry>
+                                <langstring>2</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>image</catalog>
+                              <entry>
+                                <langstring>../../AIGG/img/tomcat_download.jpg</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info2</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_tomcat_text_2.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info3</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_tomcat_text_3.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info4</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_text_blank.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info5</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_text_blank.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info6</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_text_blank.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info7</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_text_blank.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info8</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_text_blank.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                    </metadata>
+                    <mediaDescriptor>
+                      <mediaLocator>gale:/AIGG/xml/install_info_template.xhtml</mediaLocator>
+                      <interpretationNote>
+                        <langstring language="x-none">56622EC7-5162-8013-EE84-6B6C7C0C932A</langstring>
+                      </interpretationNote>
+                    </mediaDescriptor>
+                  </term>
+                  <term x="374" y="-139.5">
+                    <termIdentifier>8020C924-A3AB-1043-6548-6B5DC9FF6C4B</termIdentifier>
+                    <caption>
+                      <langstring language="x-none">InstallGALEWindowsInfo</langstring>
+                    </caption>
+                    <description>
+                      <langstring language="x-none"/>
+                    </description>
+                    <metadata>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>title</catalog>
+                              <entry>
+                                <langstring>GALE</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_gale_text.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info2</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_gale_text_2.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info3</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_gale_text_3.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info4</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_gale_text_4.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info5</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_gale_text_5.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info6</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_gale_text_6.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info7</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_gale_text_7.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info8</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_gale_text_8.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>image3</catalog>
+                              <entry>
+                                <langstring>../../AIGG/img/gale_environment_variable_with_mark.jpg</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>image7</catalog>
+                              <entry>
+                                <langstring>../../AIGG/img/gale_finish.jpg</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>image4</catalog>
+                              <entry>
+                                <langstring>../../AIGG/img/gale_jar.jpg</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>help_tomcat</catalog>
+                              <entry>
+                                <langstring>InstallTomcatWindowsInfo</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                    </metadata>
+                    <mediaDescriptor>
+                      <mediaLocator>gale:/AIGG/xml/install_info_template.xhtml</mediaLocator>
+                      <interpretationNote>
+                        <langstring language="x-none">5EBDFA1E-931E-7EA9-36B0-6B6C66A30C07</langstring>
+                      </interpretationNote>
+                    </mediaDescriptor>
+                  </term>
+                  <term x="361" y="-69.5">
+                    <termIdentifier>10BED74C-E537-FF97-62E1-6B5EEC1C9135</termIdentifier>
+                    <caption>
+                      <langstring language="x-none">InstallJDKWindowsInfo</langstring>
+                    </caption>
+                    <description>
+                      <langstring language="x-none"/>
+                    </description>
+                    <metadata>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_jdk_text.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>title</catalog>
+                              <entry>
+                                <langstring>JDK</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>order</catalog>
+                              <entry>
+                                <langstring>1</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>image4</catalog>
+                              <entry>
+                                <langstring>../../AIGG/img/jdk_verify.jpg</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info2</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_jdk_text_2.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info3</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_jdk_text_3.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info4</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_jdk_text_4.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>image3</catalog>
+                              <entry>
+                                <langstring>../../AIGG/img/jdk_environment_variable_with_mark.jpg</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info5</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_text_blank.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info6</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_text_blank.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info7</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_text_blank.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info8</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_text_blank.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                    </metadata>
+                    <mediaDescriptor>
+                      <mediaLocator>gale:/AIGG/xml/install_info_template.xhtml</mediaLocator>
+                      <interpretationNote>
+                        <langstring language="x-none">2E5A8E67-FB01-8937-8A1A-6B6C4A7B9820</langstring>
+                      </interpretationNote>
+                    </mediaDescriptor>
+                  </term>
+                  <term x="360" y="13.5">
+                    <termIdentifier>2882D90B-199D-F963-BB47-6B5F2FDCBCC0</termIdentifier>
+                    <caption>
+                      <langstring language="x-none">InstallGALELinuxInfo</langstring>
+                    </caption>
+                    <description>
+                      <langstring language="x-none"/>
+                    </description>
+                    <metadata>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>title</catalog>
+                              <entry>
+                                <langstring>Installation of the GALE binary</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/install_gale_linux_text.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                    </metadata>
+                    <mediaDescriptor>
+                      <mediaLocator>gale:/AIGG/xml/install_info_template2.xhtml</mediaLocator>
+                      <interpretationNote>
+                        <langstring language="x-none">2AEC546A-2B5C-85CA-5072-6B6C299B9874</langstring>
+                      </interpretationNote>
+                    </mediaDescriptor>
+                  </term>
+                  <term x="357" y="88.5">
+                    <termIdentifier>BBD473CF-5596-D3DF-DB9F-6B5F77CFD415</termIdentifier>
+                    <caption>
+                      <langstring language="x-none">InstallTomcatLinuxInfo</langstring>
+                    </caption>
+                    <description>
+                      <langstring language="x-none"/>
+                    </description>
+                    <metadata>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/install_tomcat_linux_text.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>title</catalog>
+                              <entry>
+                                <langstring>Installation of the Tomcat server</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                    </metadata>
+                    <mediaDescriptor>
+                      <mediaLocator>gale:/AIGG/xml/install_info_template2.xhtml</mediaLocator>
+                      <interpretationNote>
+                        <langstring language="x-none">55DAB83D-0CFB-B341-9085-6B6C0F5A9391</langstring>
+                      </interpretationNote>
+                    </mediaDescriptor>
+                  </term>
+                  <term x="365" y="173.5">
+                    <termIdentifier>E585928F-8D72-D557-0762-6B5FB26F5978</termIdentifier>
+                    <caption>
+                      <langstring language="x-none">InstallMavenWindowsInfo</langstring>
+                    </caption>
+                    <description>
+                      <langstring language="x-none"/>
+                    </description>
+                    <metadata>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_maven_text.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>title</catalog>
+                              <entry>
+                                <langstring>Maven</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>order</catalog>
+                              <entry>
+                                <langstring>2</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info2</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_maven_text_2.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info3</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_maven_text_3.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info4</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_maven_text_4.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info5</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_text_blank.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info6</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_text_blank.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info7</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_text_blank.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info8</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_text_blank.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>image4</catalog>
+                              <entry>
+                                <langstring>../../AIGG/img/maven_verify.jpg</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>image3</catalog>
+                              <entry>
+                                <langstring>../../AIGG/img/maven_environment_variable_combined_with_mark.jpg</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                    </metadata>
+                    <mediaDescriptor>
+                      <mediaLocator>gale:/AIGG/xml/install_info_template.xhtml</mediaLocator>
+                      <interpretationNote>
+                        <langstring language="x-none">B8F97745-A3AC-596B-3E39-6B6BFB0ACD6B</langstring>
+                      </interpretationNote>
+                    </mediaDescriptor>
+                  </term>
+                  <term x="385" y="254.5">
+                    <termIdentifier>01F59952-9372-E251-4EB5-6B5FEB1DFB08</termIdentifier>
+                    <caption>
+                      <langstring language="x-none">InstallGALESourceWindowsInfo</langstring>
+                    </caption>
+                    <description>
+                      <langstring language="x-none"/>
+                    </description>
+                    <metadata>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_gale_source_text.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>title</catalog>
+                              <entry>
+                                <langstring>GALE from source</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>order</catalog>
+                              <entry>
+                                <langstring>5</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info2</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_gale_source_text_2.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info3</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_gale_source_text_3.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info4</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_gale_source_text_4.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info5</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_gale_source_text_5.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info6</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_gale_source_text_6.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info7</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_text_blank.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info8</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/system_text_blank.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                    </metadata>
+                    <mediaDescriptor>
+                      <mediaLocator>gale:/AIGG/xml/install_info_template.xhtml</mediaLocator>
+                      <interpretationNote>
+                        <langstring language="x-none">15C0A8D7-E30D-F953-36A6-6B6BE01B30EE</langstring>
+                      </interpretationNote>
+                    </mediaDescriptor>
+                  </term>
+                  <term x="339" y="338.5">
+                    <termIdentifier>120BA77E-C260-D739-E546-6B602CB899F1</termIdentifier>
+                    <caption>
+                      <langstring language="x-none">InstallJDKLinuxInfo</langstring>
+                    </caption>
+                    <description>
+                      <langstring language="x-none"/>
+                    </description>
+                    <metadata>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>Instructions in xhtml</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/install_jdk_linux_text.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>title</catalog>
+                              <entry>
+                                <langstring>Installation of the JDK</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                    </metadata>
+                    <mediaDescriptor>
+                      <mediaLocator>gale:/AIGG/xml/install_info_template2.xhtml</mediaLocator>
+                      <interpretationNote>
+                        <langstring language="x-none">0E7483C6-4321-07A5-77A9-6B6BCBD285D1</langstring>
+                      </interpretationNote>
+                    </mediaDescriptor>
+                  </term>
+                  <term x="348" y="406.5">
+                    <termIdentifier>ED7E33F1-B9CF-7488-E708-6B60700F666F</termIdentifier>
+                    <caption>
+                      <langstring language="x-none">InstallMavenLinuxInfo</langstring>
+                    </caption>
+                    <description>
+                      <langstring language="x-none"/>
+                    </description>
+                    <metadata>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>title</catalog>
+                              <entry>
+                                <langstring>Maven installation instructions</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/install_maven_linux_text.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                    </metadata>
+                    <mediaDescriptor>
+                      <mediaLocator>gale:/AIGG/xml/install_info_template2.xhtml</mediaLocator>
+                      <interpretationNote>
+                        <langstring language="x-none">ADB2A083-529C-36D9-A543-6B6BB79BF7A9</langstring>
+                      </interpretationNote>
+                    </mediaDescriptor>
+                  </term>
+                  <term x="337" y="466.5">
+                    <termIdentifier>1E19FCAA-D8AA-0D7D-CC1F-6B60A9EF5A18</termIdentifier>
+                    <caption>
+                      <langstring language="x-none">InstallGALESourceLinuxInfo</langstring>
+                    </caption>
+                    <description>
+                      <langstring language="x-none"/>
+                    </description>
+                    <metadata>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>title</catalog>
+                              <entry>
+                                <langstring>Installing GALE from source</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                      <concept>
+                        <lom>
+                          <general>
+                            <description>
+                              <langstring>new Description</langstring>
+                            </description>
+                            <catalogentry>
+                              <catalog>info</catalog>
+                              <entry>
+                                <langstring>../../AIGG/xml/install_gale_source_linux_text.xhtml</langstring>
+                              </entry>
+                            </catalogentry>
+                          </general>
+                        </lom>
+                      </concept>
+                    </metadata>
+                    <mediaDescriptor>
+                      <mediaLocator>gale:/AIGG/xml/install_info_template2.xhtml</mediaLocator>
+                      <interpretationNote>
+                        <langstring language="x-none">D0D2DEE1-161B-FB0F-481A-6B6B9F3B0C43</langstring>
+                      </interpretationNote>
+                    </mediaDescriptor>
+                  </term>
+                  <relationship>
+                    <sourceTerm>1E72B9FA-3E0F-F803-B77E-18B200C238CD</sourceTerm>
+                    <targetTerm>FDB35219-C12F-39D8-2DB4-18B3F1547379</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">depends</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>1E72B9FA-3E0F-F803-B77E-18B200C238CD</sourceTerm>
+                    <targetTerm>1392609E-DB5E-A10D-4080-18B342DC0DDB</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">depends</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>AD64F54A-1DC9-0EAE-01D1-18BBE595619F</sourceTerm>
+                    <targetTerm>1392609E-DB5E-A10D-4080-18B342DC0DDB</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">depends</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>AD64F54A-1DC9-0EAE-01D1-18BBE595619F</sourceTerm>
+                    <targetTerm>FDB35219-C12F-39D8-2DB4-18B3F1547379</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">depends</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>FAEB50D2-C05C-2127-A872-18AF1E4C9407</sourceTerm>
+                    <targetTerm>2323768C-86C8-CE24-903F-18C09DBE0A02</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">parent</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>BB70052D-4D09-54CD-5059-18B0130A0D59</sourceTerm>
+                    <targetTerm>2323768C-86C8-CE24-903F-18C09DBE0A02</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">parent</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>1392609E-DB5E-A10D-4080-18B342DC0DDB</sourceTerm>
+                    <targetTerm>FDB35219-C12F-39D8-2DB4-18B3F1547379</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">depends</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>E266B76B-72C9-E089-00C0-189BEA10AC1F</sourceTerm>
+                    <targetTerm>BB70052D-4D09-54CD-5059-18B0130A0D59</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">parent</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>F6D4875A-1D14-5798-20AC-189E4CAA10A0</sourceTerm>
+                    <targetTerm>BB70052D-4D09-54CD-5059-18B0130A0D59</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">parent</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>736E8204-25E9-66E5-C22D-18A47A7DBB44</sourceTerm>
+                    <targetTerm>BB70052D-4D09-54CD-5059-18B0130A0D59</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">parent</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>E015832C-0057-A412-5127-18A7ABD6FFE7</sourceTerm>
+                    <targetTerm>BB70052D-4D09-54CD-5059-18B0130A0D59</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">parent</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>2A8B6117-1A98-2173-385E-18A809C1F5A3</sourceTerm>
+                    <targetTerm>BB70052D-4D09-54CD-5059-18B0130A0D59</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">parent</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>E266B76B-72C9-E089-00C0-189BEA10AC1F</sourceTerm>
+                    <targetTerm>BB70052D-4D09-54CD-5059-18B0130A0D59</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">forOS</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>F6D4875A-1D14-5798-20AC-189E4CAA10A0</sourceTerm>
+                    <targetTerm>BB70052D-4D09-54CD-5059-18B0130A0D59</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">forOS</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>736E8204-25E9-66E5-C22D-18A47A7DBB44</sourceTerm>
+                    <targetTerm>BB70052D-4D09-54CD-5059-18B0130A0D59</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">forOS</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>E015832C-0057-A412-5127-18A7ABD6FFE7</sourceTerm>
+                    <targetTerm>BB70052D-4D09-54CD-5059-18B0130A0D59</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">forOS</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>2A8B6117-1A98-2173-385E-18A809C1F5A3</sourceTerm>
+                    <targetTerm>BB70052D-4D09-54CD-5059-18B0130A0D59</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">forOS</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <targetTerm>1E72B9FA-3E0F-F803-B77E-18B200C238CD</targetTerm>
+                    <sourceTerm>F6D4875A-1D14-5798-20AC-189E4CAA10A0</sourceTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">system</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <targetTerm>1E72B9FA-3E0F-F803-B77E-18B200C238CD</targetTerm>
+                    <sourceTerm>FC669A22-C014-7AC0-977C-189BF2AF8732</sourceTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">system</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>34113FCC-9A1E-4286-E758-189BDD6EAE6A</sourceTerm>
+                    <targetTerm>FAEB50D2-C05C-2127-A872-18AF1E4C9407</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">forOS</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>FC669A22-C014-7AC0-977C-189BF2AF8732</sourceTerm>
+                    <targetTerm>FAEB50D2-C05C-2127-A872-18AF1E4C9407</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">parent</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>20ADFAFC-C8AF-40F3-021C-189EA8FAC23E</sourceTerm>
+                    <targetTerm>FAEB50D2-C05C-2127-A872-18AF1E4C9407</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">parent</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>5433A894-4D37-9C67-C003-18A4B6867FAB</sourceTerm>
+                    <targetTerm>FAEB50D2-C05C-2127-A872-18AF1E4C9407</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">parent</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>7CDFAEDC-E952-B0C3-A6C7-18A71D341B40</sourceTerm>
+                    <targetTerm>FAEB50D2-C05C-2127-A872-18AF1E4C9407</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">parent</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>FC669A22-C014-7AC0-977C-189BF2AF8732</sourceTerm>
+                    <targetTerm>FAEB50D2-C05C-2127-A872-18AF1E4C9407</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">forOS</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>20ADFAFC-C8AF-40F3-021C-189EA8FAC23E</sourceTerm>
+                    <targetTerm>FAEB50D2-C05C-2127-A872-18AF1E4C9407</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">forOS</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>5433A894-4D37-9C67-C003-18A4B6867FAB</sourceTerm>
+                    <targetTerm>FAEB50D2-C05C-2127-A872-18AF1E4C9407</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">forOS</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>7CDFAEDC-E952-B0C3-A6C7-18A71D341B40</sourceTerm>
+                    <targetTerm>FAEB50D2-C05C-2127-A872-18AF1E4C9407</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">forOS</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <targetTerm>1392609E-DB5E-A10D-4080-18B342DC0DDB</targetTerm>
+                    <sourceTerm>34113FCC-9A1E-4286-E758-189BDD6EAE6A</sourceTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">system</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <targetTerm>FDB35219-C12F-39D8-2DB4-18B3F1547379</targetTerm>
+                    <sourceTerm>20ADFAFC-C8AF-40F3-021C-189EA8FAC23E</sourceTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">system</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <targetTerm>1392609E-DB5E-A10D-4080-18B342DC0DDB</targetTerm>
+                    <sourceTerm>E266B76B-72C9-E089-00C0-189BEA10AC1F</sourceTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">system</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <targetTerm>AD64F54A-1DC9-0EAE-01D1-18BBE595619F</targetTerm>
+                    <sourceTerm>E015832C-0057-A412-5127-18A7ABD6FFE7</sourceTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">system</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <targetTerm>AD64F54A-1DC9-0EAE-01D1-18BBE595619F</targetTerm>
+                    <sourceTerm>7CDFAEDC-E952-B0C3-A6C7-18A71D341B40</sourceTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">system</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <targetTerm>FDB35219-C12F-39D8-2DB4-18B3F1547379</targetTerm>
+                    <sourceTerm>736E8204-25E9-66E5-C22D-18A47A7DBB44</sourceTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">system</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <targetTerm>B827A054-08EA-0DC0-0DAB-18B5D965F696</targetTerm>
+                    <sourceTerm>5433A894-4D37-9C67-C003-18A4B6867FAB</sourceTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">system</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <targetTerm>B827A054-08EA-0DC0-0DAB-18B5D965F696</targetTerm>
+                    <sourceTerm>2A8B6117-1A98-2173-385E-18A809C1F5A3</sourceTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">system</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>FDB35219-C12F-39D8-2DB4-18B3F1547379</sourceTerm>
+                    <targetTerm>F4F5320E-6DD7-C070-4535-18C17146A86D</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">parent</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>B827A054-08EA-0DC0-0DAB-18B5D965F696</sourceTerm>
+                    <targetTerm>F4F5320E-6DD7-C070-4535-18C17146A86D</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">parent</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>1E72B9FA-3E0F-F803-B77E-18B200C238CD</sourceTerm>
+                    <targetTerm>F4F5320E-6DD7-C070-4535-18C17146A86D</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">parent</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>1392609E-DB5E-A10D-4080-18B342DC0DDB</sourceTerm>
+                    <targetTerm>F4F5320E-6DD7-C070-4535-18C17146A86D</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">parent</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>AD64F54A-1DC9-0EAE-01D1-18BBE595619F</sourceTerm>
+                    <targetTerm>F4F5320E-6DD7-C070-4535-18C17146A86D</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">parent</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>B827A054-08EA-0DC0-0DAB-18B5D965F696</sourceTerm>
+                    <targetTerm>FDB35219-C12F-39D8-2DB4-18B3F1547379</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">depends</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>34113FCC-9A1E-4286-E758-189BDD6EAE6A</sourceTerm>
+                    <targetTerm>006C114E-8F6A-0CF7-4C1A-6B5D4D7DE4F8</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">info</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>FC669A22-C014-7AC0-977C-189BF2AF8732</sourceTerm>
+                    <targetTerm>8020C924-A3AB-1043-6548-6B5DC9FF6C4B</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">info</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>20ADFAFC-C8AF-40F3-021C-189EA8FAC23E</sourceTerm>
+                    <targetTerm>10BED74C-E537-FF97-62E1-6B5EEC1C9135</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">info</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>F6D4875A-1D14-5798-20AC-189E4CAA10A0</sourceTerm>
+                    <targetTerm>2882D90B-199D-F963-BB47-6B5F2FDCBCC0</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">info</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>E266B76B-72C9-E089-00C0-189BEA10AC1F</sourceTerm>
+                    <targetTerm>BBD473CF-5596-D3DF-DB9F-6B5F77CFD415</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">info</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>5433A894-4D37-9C67-C003-18A4B6867FAB</sourceTerm>
+                    <targetTerm>E585928F-8D72-D557-0762-6B5FB26F5978</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">info</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>7CDFAEDC-E952-B0C3-A6C7-18A71D341B40</sourceTerm>
+                    <targetTerm>01F59952-9372-E251-4EB5-6B5FEB1DFB08</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">info</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>736E8204-25E9-66E5-C22D-18A47A7DBB44</sourceTerm>
+                    <targetTerm>120BA77E-C260-D739-E546-6B602CB899F1</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">info</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>2A8B6117-1A98-2173-385E-18A809C1F5A3</sourceTerm>
+                    <targetTerm>ED7E33F1-B9CF-7488-E708-6B60700F666F</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">info</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>E015832C-0057-A412-5127-18A7ABD6FFE7</sourceTerm>
+                    <targetTerm>1E19FCAA-D8AA-0D7D-CC1F-6B60A9EF5A18</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">info</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>AD64F54A-1DC9-0EAE-01D1-18BBE595619F</sourceTerm>
+                    <targetTerm>B827A054-08EA-0DC0-0DAB-18B5D965F696</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">depends</relationshipType>
+                    <metadata/>
+                  </relationship>
+                  <relationship>
+                    <sourceTerm>34113FCC-9A1E-4286-E758-189BDD6EAE6A</sourceTerm>
+                    <targetTerm>FAEB50D2-C05C-2127-A872-18AF1E4C9407</targetTerm>
+                    <relationshipType source="http://www.grapple.org/relations.xml">parent</relationshipType>
+                    <metadata/>
+                  </relationship>
+                </vdex>
+              </dm>
+            </body>
+          </model>
+        </domainModel>
+      </camInternal>
+    </cam>
+  </body>
+</model>
