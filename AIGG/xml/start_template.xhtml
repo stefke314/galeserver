@@ -11,6 +11,12 @@
 
 	<h1><gale:variable expr="${?title}"/></h1>
 
+	<gale:a href="Start" exec="#{Start#os, ${Start#os}-1};">decrease</gale:a>
+	<gale:a href="Start" exec="#{Start#os, ${Start#os}+1};">increase</gale:a>
+	<gale:variable name="#os" />
+	Global: <gale:variable name="global#os" />
+	<gale:a href="Start" exec="#{global#os, ${global#os}-1};">decrease global</gale:a>
+	<gale:a href="Start" exec="#{global#os, ${global#os}+1};">increase global</gale:a>
 	<p>
 	<gale:object><gale:attr-variable name="data" expr="${?introduction}" /></gale:object>
 	</p>
