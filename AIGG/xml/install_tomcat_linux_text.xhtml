@@ -5,7 +5,16 @@
 			Open the terminal.
 		</div>
 		<div class="instr-body">
-		<img src="../../AIGG/img/linux-terminal.png"></img>
+		<div class="thumbnail">
+			<label>
+				<input type="checkbox"/>
+				<img src="../../AIGG/img/linux-terminal.png" alt="Click to enlarge">
+					<span class="hover-text">
+						Click to enlarge
+					</span>
+				</img>
+			</label>
+		</div>
 		</div>
 	</li>
 	
@@ -86,16 +95,31 @@
 		</div>
 		<div class="instr-body">
 			Checking if the server has started correctly can be done by opening your browser and go to the localhost:8080 page. Now you should get the Tomcat page which is similar to:
-			<div>
-			<img src="../../AIGG/img/linux-tomcat-3.png" width="600px"></img>
+			<div class="thumbnail">
+				<label>
+					<input type="checkbox"/>
+					<img src="../../AIGG/img/linux-tomcat-3.png" alt="Click to enlarge">
+						<span class="hover-text">
+							Click to enlarge
+						</span>
+					</img>
+				</label>
 			</div>
 			Another way to check if the server has started correctly is by looking at the Catalina logs. This log contains the errors, warnings and info messages that each servlet generates. If something went wrong it should be logged in the catalina.out file. To show the last lines of the Catalina log type the following command:
 			<div class="code">
 				tail ./tomcat/logs/catalina.out
 			</div>
 			When the server has started successfully it should not show any errors and the message: "INFO: Server startup in xxxx ms" should be printed in the end.
-			<div>
-				<img src="../../AIGG/img/linux-tomcat-4.png"></img>
+
+			<div class="thumbnail">
+				<label>
+					<input type="checkbox"/>
+					<img src="../../AIGG/img/linux-tomcat-4.png" alt="Click to enlarge">
+						<span class="hover-text">
+							Click to enlarge
+						</span>
+					</img>
+				</label>
 			</div>
 			When you want to watch the log continuously you can also add the '-f' flag after the tail command. Then whenever there is written to the log file, this is shown in the terminal. You could of course also use any other text editor to browse through the complete logs.
 		</div>

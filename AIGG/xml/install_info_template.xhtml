@@ -12,7 +12,7 @@
 		<!-- making it possible to hide the info when needed -->
 		<gale:if expr="${#visited} > 1">
 			<gale:then> <!-- The page is visited before -->
-				<div id="hide-info">
+				<div class="hide-info">
 					<h3>Installation information for <gale:variable expr="${?title}"/></h3>
 					You already have installed <gale:variable expr="${?title}"/>.
 					<label for="showhide">
@@ -34,49 +34,161 @@
 			<h2>Steps</h2>
 			<div class="section">
 				<gale:object><gale:attr-variable name="data" expr="${?info}" /></gale:object>
-				<img><gale:attr-variable name="src" expr="${?image}"/></img>
+				<gale:if expr="!${?image}.isEmpty()">
+					<gale:then>
+						<div class="thumbnail">
+							<label>
+								<input type="checkbox"/>
+								<img alt="Click to enlarge">
+								<gale:attr-variable name="src" expr="${?image}"/>
+									<span class="hover-text">
+										Click to enlarge
+									</span>
+								</img>
+							</label>
+						</div>
+					</gale:then>
+				</gale:if>
 			</div>
 			
 
 			<div class="section">
 				<gale:object><gale:attr-variable name="data" expr="${?info2}" /></gale:object>
-				<img><gale:attr-variable name="src" expr="${?image2}"/></img>
+				<gale:if expr="!${?image2}.isEmpty()">
+					<gale:then>
+						<div class="thumbnail">
+							<label>
+								<input type="checkbox"/>
+								<img alt="Click to enlarge">
+								<gale:attr-variable name="src" expr="${?image2}"/>
+									<span class="hover-text">
+										Click to enlarge
+									</span>
+								</img>
+							</label>
+						</div>
+					</gale:then>
+				</gale:if>
 			</div>
 			
 
 			<div class="section">
 				<gale:object><gale:attr-variable name="data" expr="${?info3}" /></gale:object>
-				<img><gale:attr-variable name="src" expr="${?image3}"/></img>
+				<gale:if expr="!${?image3}.isEmpty()">
+					<gale:then>
+						<div class="thumbnail">
+							<label>
+								<input type="checkbox"/>
+								<img alt="Click to enlarge">
+								<gale:attr-variable name="src" expr="${?image3}"/>
+									<span class="hover-text">
+										Click to enlarge
+									</span>
+								</img>
+							</label>
+						</div>
+					</gale:then>
+				</gale:if>
 			</div>
 			
 
 			<div class="section">
 				<gale:object><gale:attr-variable name="data" expr="${?info4}" /></gale:object>
-				<img><gale:attr-variable name="src" expr="${?image4}"/></img>
+				<gale:if expr="!${?image4}.isEmpty()">
+					<gale:then>
+						<div class="thumbnail">
+							<label>
+								<input type="checkbox"/>
+								<img alt="Click to enlarge">
+								<gale:attr-variable name="src" expr="${?image4}"/>
+									<span class="hover-text">
+										Click to enlarge
+									</span>
+								</img>
+							</label>
+						</div>
+					</gale:then>
+				</gale:if>
 			</div>
 			
 
 			<div class="section">
 				<gale:object><gale:attr-variable name="data" expr="${?info5}" /></gale:object>
-				<img><gale:attr-variable name="src" expr="${?image5}"/></img>
+				<gale:if expr="!${?image5}.isEmpty()">
+					<gale:then>
+						<div class="thumbnail">
+							<label>
+								<input type="checkbox"/>
+								<img alt="Click to enlarge">
+								<gale:attr-variable name="src" expr="${?image5}"/>
+									<span class="hover-text">
+										Click to enlarge
+									</span>
+								</img>
+							</label>
+						</div>
+					</gale:then>
+				</gale:if>
 			</div>
 			
 
 			<div class="section">
 				<gale:object><gale:attr-variable name="data" expr="${?info6}" /></gale:object>
-				<img><gale:attr-variable name="src" expr="${?image6}"/><gale:attr-variable name="width" expr="300"/></img>
+				<gale:if expr="!${?image6}.isEmpty()">
+					<gale:then>
+						<div class="thumbnail">
+							<label>
+								<input type="checkbox"/>
+								<img alt="Click to enlarge">
+								<gale:attr-variable name="src" expr="${?image6}"/>
+									<span class="hover-text">
+										Click to enlarge
+									</span>
+								</img>
+							</label>
+						</div>
+					</gale:then>
+				</gale:if>
 			</div>
 			
 
 			<div class="section">
 				<gale:object><gale:attr-variable name="data" expr="${?info7}" /></gale:object>
-				<img><gale:attr-variable name="src" expr="${?image7}"/><gale:attr-variable name="width" expr="600"/></img>
+				<gale:if expr="!${?image7}.isEmpty()">
+					<gale:then>
+						<div class="thumbnail">
+							<label>
+								<input type="checkbox"/>
+								<img alt="Click to enlarge">
+								<gale:attr-variable name="src" expr="${?image7}"/>
+									<span class="hover-text">
+										Click to enlarge
+									</span>
+								</img>
+							</label>
+						</div>
+					</gale:then>
+				</gale:if>
 			</div>
 			
 
 			<div class="section">
 				<gale:object><gale:attr-variable name="data" expr="${?info8}" /></gale:object>
-				<img><gale:attr-variable name="src" expr="${?image8}"/></img>
+				<gale:if expr="!${?image8}.isEmpty()">
+					<gale:then>
+						<div class="thumbnail">
+							<label>
+								<input type="checkbox"/>
+								<img alt="Click to enlarge">
+								<gale:attr-variable name="src" expr="${?image8}"/>
+									<span class="hover-text">
+										Click to enlarge
+									</span>
+								</img>
+							</label>
+						</div>
+					</gale:then>
+				</gale:if>
 			</div>
 			
 		</div>
