@@ -20,6 +20,11 @@
 	<p>
 	<gale:object><gale:attr-variable name="data" expr="${?introduction}" /></gale:object>
 	</p>
+	
+	<gale:a exec="#{Start#os, 12};" href=""  id="test-call"/>
+	<input type="checkbox" onclick="callAsync(&quot;test-call&quot;)">
+		Test asynchronuous callbacks
+	</input>
 
 	<!-- display the installation instruction for all the OS -->
 	<div id="installation-links">
@@ -43,5 +48,23 @@
 	</div>
 
 </div>
+
+<script>
+	/** 
+	 * Calls the link from the given hrefholder asynchronuous.
+	 * hrefholder - the id of the object to call the href attribrute of.
+	 */
+	function callAsync(hrefholder) {
+		
+		// getting the link to call
+		element = document.getElementById(hrefholder);
+		href = element.attributes.getNamedItem("href").value;
+		
+		// calling the url
+		var xmlhttp = new XMLHttpRequest();
+		xmlhttp.open("GET", href, true);
+		xmlhttp.send();
+	}
+</script>
 	
 </html>
