@@ -1,0 +1,80 @@
+<model>
+  <header>
+    <title>Global</title>
+    <description/>
+    <creationtime>1415093639529</creationtime>
+    <updatetime>1415108718471</updatetime>
+    <modeluuid>22C215B8-A613-1C31-7CFA-7A275A4BB0B4</modeluuid>
+    <authoruuid>be1c9b1a-b38a-4d27-aa12-94328b022bd8</authoruuid>
+    <authorisation>nopermission</authorisation>
+    <modeltype>crt</modeltype>
+  </header>
+  <body>
+    <crt>
+      <comment/>
+      <crtdialect>CRT</crtdialect>
+      <parameter name="" type=""/>
+      <visualrepresentation>
+        <colour>#000000</colour>
+        <shape>diamond</shape>
+      </visualrepresentation>
+      <adaptationbehaviour>
+        <code type="gale"><![CDATA[%self% {  #os:Integer {     public `true`     authorative `true`  }  #test:String {     public `true`     authorative `true`  }}]]></code>
+        <usermodel>
+          <umvariable>
+            <umvarname>os</umvarname>
+            <socket>self</socket>
+            <public>true</public>
+            <persistent>true</persistent>
+            <location>
+              <web/>
+              <remotecourse>
+                <remotecoursename/>
+                <resource>
+                  <resourceuniqueid/>
+                  <resourcename/>
+                </resource>
+              </remotecourse>
+            </location>
+            <type>integer</type>
+            <range/>
+            <default><![CDATA[42]]></default>
+          </umvariable>
+          <umvariable>
+            <umvarname>test</umvarname>
+            <socket>self</socket>
+            <public>true</public>
+            <persistent>true</persistent>
+            <location>
+              <web/>
+              <remotecourse>
+                <remotecoursename/>
+                <resource>
+                  <resourceuniqueid/>
+                  <resourcename/>
+                </resource>
+              </remotecourse>
+            </location>
+            <type>string</type>
+            <range/>
+            <default><![CDATA[test]]></default>
+          </umvariable>
+        </usermodel>
+      </adaptationbehaviour>
+      <constraints>
+        <loopsallowed>false</loopsallowed>
+        <attributeconstraints/>
+        <umvariableconstraints/>
+      </constraints>
+      <crtsockets>
+        <socket type="self">
+          <uuid>cbb0baf8-f734-4115-f765-7a27703085b1</uuid>
+          <name>self</name>
+          <mincardinality>1</mincardinality>
+          <maxcardinality>*</maxcardinality>
+        </socket>
+      </crtsockets>
+      <associateddmrelations/>
+    </crt>
+  </body>
+</model>
