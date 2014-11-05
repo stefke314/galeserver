@@ -5,7 +5,7 @@
     <creationtime>1415093639529</creationtime>
     <updatetime>1415108718471</updatetime>
     <modeluuid>22C215B8-A613-1C31-7CFA-7A275A4BB0B4</modeluuid>
-    <authoruuid>be1c9b1a-b38a-4d27-aa12-94328b022bd8</authoruuid>
+    <authoruuid>337ceb92-b4b0-431d-b2c9-65836dd87637</authoruuid>
     <authorisation>nopermission</authorisation>
     <modeltype>crt</modeltype>
   </header>
@@ -19,7 +19,7 @@
         <shape>diamond</shape>
       </visualrepresentation>
       <adaptationbehaviour>
-        <code type="gale"><![CDATA[%self% {  #os:Integer {     public `true`     authorative `true`  }  #test:String {     public `true`     authorative `true`  }}]]></code>
+        <code type="gale"><![CDATA[%self% {  #os:Integer {     public `true`     authorative `true`  }  #test:String {     public `true`     authorative `true`  }  #prefersThumbnails:Integer {     public `true`     authorative `true`  }}]]></code>
         <usermodel>
           <umvariable>
             <umvarname>os</umvarname>
@@ -58,6 +58,28 @@
             <type>string</type>
             <range/>
             <default><![CDATA[test]]></default>
+          </umvariable>
+          <umvariable>
+            <umvarname>prefersThumbnails</umvarname>
+            <socket>self</socket>
+            <public>true</public>
+            <persistent>true</persistent>
+            <location>
+              <web/>
+              <remotecourse>
+                <remotecoursename/>
+                <resource>
+                  <resourceuniqueid/>
+                  <resourcename/>
+                </resource>
+              </remotecourse>
+            </location>
+            <type>integer</type>
+            <range>
+              <from>0</from>
+              <to>10</to>
+            </range>
+            <default><![CDATA[7]]></default>
           </umvariable>
         </usermodel>
       </adaptationbehaviour>

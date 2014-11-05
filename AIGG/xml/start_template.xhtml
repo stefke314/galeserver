@@ -20,8 +20,10 @@
 	<p>
 	<gale:object><gale:attr-variable name="data" expr="${?introduction}" /></gale:object>
 	</p>
+	preferThumbnails: 
+	<gale:variable name="global#prefersThumbnails" />
 	
-	<gale:a exec="#{Start#os, 12};" href=""  id="test-call"/>
+	<gale:a exec="#{global#prefersThumbnails, 5};" href=""  id="test-call"/>
 	<input type="checkbox" onclick="callAsync(&quot;test-call&quot;)">
 		Test asynchronuous callbacks
 	</input>
