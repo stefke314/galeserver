@@ -43,4 +43,36 @@
 	
 </div>
 
+<!-- small gale code functions to increase and decrease the prefersThumbnails attribute -->
+<gale:a id="decrease-prefers-thumbnails" href="" exec="#{global#prefersThumbnails, ${global#prefersThumbnails} - 1};" />
+<gale:a id="increase-prefers-thumbnails" href="" exec="#{global#prefersThumbnails, ${global#prefersThumbnails} + 1};" />
+
+<script>
+	/**
+	 * Callback function for when thumbnails become checked
+	 * checked - true if the thumbnail became checked, false if it became unchecked
+	 */
+	function onThumbnailCheck(checked) {
+		if (checked)
+			callAsync("increase-prefers-thumbnails");
+		else
+			callAsync("decrease-prefers-thumbnails");
+	}
+	
+	/** 
+	 * Calls the link from the given hrefholder asynchronuous.
+	 * hrefholder - the id of the object to call the href attribrute of.
+	 */
+	function callAsync(hrefholder) {
+		
+		// getting the link to call
+		element = document.getElementById(hrefholder);
+		href = element.attributes.getNamedItem("href").value;
+		
+		// calling the url
+		var xmlhttp = new XMLHttpRequest();
+		xmlhttp.open("GET", href, true);
+		xmlhttp.send();
+	}
+</script>
 </html>
