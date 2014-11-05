@@ -51,7 +51,7 @@ public class ExecPlugin extends AbstractPlugin {
 			if (lru == null)
 				return;
 
-			String[] entry = lru.remove(guid);
+			String[] entry = lru.get(guid);
 			if (entry == null)
 				return;
 			CacheSession<EntityValue> session = gale.openUmSession();
