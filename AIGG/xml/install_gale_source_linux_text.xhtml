@@ -68,23 +68,23 @@
 					mvn install
 				</div>
 				Executing this command can last for several minutes and should finish without showing any errors. In the end an 'Reactor summary' will be shown where every component of the GALE framework should be compiled sucessfully as shown in the following screenshot:
-					<div class="thumbnail">
-						<label>
-							<gale:if expr="${global#prefersThumbnails} > 6">
-								<gale:then>
-									<input type="checkbox" onclick="onThumbnailCheck(this.checked)" checked="checked"/>
-								</gale:then>
-								<gale:else>
-									<input type="checkbox" onclick="onThumbnailCheck(this.checked)"/>
-								</gale:else>
-							</gale:if>
-							<img src="../../AIGG/img/linux-gale-source-6.png" alt="Click to enlarge">
-								<span class="hover-text">
-									Click to enlarge
-								</span>
-							</img>
-						</label>
-					</div>
+				<div class="thumbnail">
+					<label>
+						<gale:if expr="${global#prefersThumbnails} > 6">
+							<gale:then>
+								<input type="checkbox" onclick="onThumbnailCheck(this.checked)" checked="checked"/>
+							</gale:then>
+							<gale:else>
+								<input type="checkbox" onclick="onThumbnailCheck(this.checked)"/>
+							</gale:else>
+						</gale:if>
+						<img src="../../AIGG/img/linux-gale-source-6.png" alt="Click to enlarge">
+							<span class="hover-text">
+								Click to enlarge
+							</span>
+						</img>
+					</label>
+				</div>
 			</div>
 		</li>	
 		
@@ -191,12 +191,19 @@
 				Open your browser and type in the address bar localhost:8080/gale. You have to see a page similar to the following screenshot:
 				<div class="thumbnail">
 					<label>
-						<input type="checkbox" onclick="onThumbnailCheck(this.checked)"/>
-							<img src="../../AIGG/img/linux-gale-source-11.png" alt="Click to enlarge">
-								<span class="hover-text">
-									Click to enlarge
-								</span>
-							</img>
+						<gale:if expr="${global#prefersThumbnails} > 6">
+							<gale:then>
+								<input type="checkbox" onclick="onThumbnailCheck(this.checked)" checked="checked"/>
+							</gale:then>
+							<gale:else>
+								<input type="checkbox" onclick="onThumbnailCheck(this.checked)"/>
+							</gale:else>
+						</gale:if>
+						<img src="../../AIGG/img/linux-gale-source-11.png" alt="Click to enlarge">
+							<span class="hover-text">
+								Click to enlarge
+							</span>
+						</img>
 					</label>
 				</div>
 			</div>

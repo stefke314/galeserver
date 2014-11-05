@@ -38,9 +38,16 @@
 					<gale:then>
 						<div class="thumbnail">
 							<label>
-								<input type="checkbox"/>
+								<gale:if expr="${global#prefersThumbnails} > 6">
+									<gale:then>
+										<input type="checkbox" onclick="onThumbnailCheck(this.checked)" checked="checked"/>
+									</gale:then>
+									<gale:else>
+										<input type="checkbox" onclick="onThumbnailCheck(this.checked)"/>
+									</gale:else>
+								</gale:if>
 								<img alt="Click to enlarge">
-								<gale:attr-variable name="src" expr="${?image}"/>
+									<gale:attr-variable name="src" expr="${?image}"/>
 									<span class="hover-text">
 										Click to enlarge
 									</span>
@@ -58,9 +65,16 @@
 					<gale:then>
 						<div class="thumbnail">
 							<label>
-								<input type="checkbox"/>
+								<gale:if expr="${global#prefersThumbnails} > 6">
+									<gale:then>
+										<input type="checkbox" onclick="onThumbnailCheck(this.checked)" checked="checked"/>
+									</gale:then>
+									<gale:else>
+										<input type="checkbox" onclick="onThumbnailCheck(this.checked)"/>
+									</gale:else>
+								</gale:if>
 								<img alt="Click to enlarge">
-								<gale:attr-variable name="src" expr="${?image2}"/>
+									<gale:attr-variable name="src" expr="${?image2}"/>
 									<span class="hover-text">
 										Click to enlarge
 									</span>
@@ -78,9 +92,16 @@
 					<gale:then>
 						<div class="thumbnail">
 							<label>
-								<input type="checkbox"/>
+								<gale:if expr="${global#prefersThumbnails} > 6">
+									<gale:then>
+										<input type="checkbox" onclick="onThumbnailCheck(this.checked)" checked="checked"/>
+									</gale:then>
+									<gale:else>
+										<input type="checkbox" onclick="onThumbnailCheck(this.checked)"/>
+									</gale:else>
+								</gale:if>
 								<img alt="Click to enlarge">
-								<gale:attr-variable name="src" expr="${?image3}"/>
+									<gale:attr-variable name="src" expr="${?image3}"/>
 									<span class="hover-text">
 										Click to enlarge
 									</span>
@@ -98,9 +119,16 @@
 					<gale:then>
 						<div class="thumbnail">
 							<label>
-								<input type="checkbox"/>
+								<gale:if expr="${global#prefersThumbnails} > 6">
+									<gale:then>
+										<input type="checkbox" onclick="onThumbnailCheck(this.checked)" checked="checked"/>
+									</gale:then>
+									<gale:else>
+										<input type="checkbox" onclick="onThumbnailCheck(this.checked)"/>
+									</gale:else>
+								</gale:if>
 								<img alt="Click to enlarge">
-								<gale:attr-variable name="src" expr="${?image4}"/>
+									<gale:attr-variable name="src" expr="${?image4}"/>
 									<span class="hover-text">
 										Click to enlarge
 									</span>
@@ -118,9 +146,16 @@
 					<gale:then>
 						<div class="thumbnail">
 							<label>
-								<input type="checkbox"/>
+								<gale:if expr="${global#prefersThumbnails} > 6">
+									<gale:then>
+										<input type="checkbox" onclick="onThumbnailCheck(this.checked)" checked="checked"/>
+									</gale:then>
+									<gale:else>
+										<input type="checkbox" onclick="onThumbnailCheck(this.checked)"/>
+									</gale:else>
+								</gale:if>
 								<img alt="Click to enlarge">
-								<gale:attr-variable name="src" expr="${?image5}"/>
+									<gale:attr-variable name="src" expr="${?image5}"/>
 									<span class="hover-text">
 										Click to enlarge
 									</span>
@@ -138,9 +173,16 @@
 					<gale:then>
 						<div class="thumbnail">
 							<label>
-								<input type="checkbox"/>
+								<gale:if expr="${global#prefersThumbnails} > 6">
+									<gale:then>
+										<input type="checkbox" onclick="onThumbnailCheck(this.checked)" checked="checked"/>
+									</gale:then>
+									<gale:else>
+										<input type="checkbox" onclick="onThumbnailCheck(this.checked)"/>
+									</gale:else>
+								</gale:if>
 								<img alt="Click to enlarge">
-								<gale:attr-variable name="src" expr="${?image6}"/>
+									<gale:attr-variable name="src" expr="${?image6}"/>
 									<span class="hover-text">
 										Click to enlarge
 									</span>
@@ -158,9 +200,16 @@
 					<gale:then>
 						<div class="thumbnail">
 							<label>
-								<input type="checkbox"/>
+								<gale:if expr="${global#prefersThumbnails} > 6">
+									<gale:then>
+										<input type="checkbox" onclick="onThumbnailCheck(this.checked)" checked="checked"/>
+									</gale:then>
+									<gale:else>
+										<input type="checkbox" onclick="onThumbnailCheck(this.checked)"/>
+									</gale:else>
+								</gale:if>
 								<img alt="Click to enlarge">
-								<gale:attr-variable name="src" expr="${?image7}"/>
+									<gale:attr-variable name="src" expr="${?image7}"/>
 									<span class="hover-text">
 										Click to enlarge
 									</span>
@@ -178,9 +227,16 @@
 					<gale:then>
 						<div class="thumbnail">
 							<label>
-								<input type="checkbox"/>
+								<gale:if expr="${global#prefersThumbnails} > 6">
+									<gale:then>
+										<input type="checkbox" onclick="onThumbnailCheck(this.checked)" checked="checked"/>
+									</gale:then>
+									<gale:else>
+										<input type="checkbox" onclick="onThumbnailCheck(this.checked)"/>
+									</gale:else>
+								</gale:if>
 								<img alt="Click to enlarge">
-								<gale:attr-variable name="src" expr="${?image8}"/>
+									<gale:attr-variable name="src" expr="${?image8}"/>
 									<span class="hover-text">
 										Click to enlarge
 									</span>
@@ -190,9 +246,6 @@
 					</gale:then>
 				</gale:if>
 			</div>
-			
 		</div>
-			
 	</div>
-
 </html>

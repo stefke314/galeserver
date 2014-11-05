@@ -1,99 +1,121 @@
-<div>
-<ol>
-	<li> 
-		<div class="instr-header">
-			Open the terminal.
-		</div>
-		<div class="instr-body">
-			<div class="thumbnail">
-				<label>
-					<input type="checkbox"/>
-					<img id="img-linux-terminal" src="../../AIGG/img/linux-terminal.png" alt="Click to enlarge">
-						<span class="hover-text">
-							Click to enlarge
-						</span>
-					</img>
-				</label>
-			</div>
-		</div>
-	</li>
-	
-	<li>
-		<div class="instr-header">
-			Update the apt repository
-		</div>
-		<div class="instr-body">
-			Type in the following command in the terminal:
-			<div class="code">
-				 sudo apt-get update
-			</div>
-			When you press enter you will be requested to enter the password.
-		</div>
-	</li>
-	
-	<li> 
-		<div class="instr-header">Install the openjdk-7-jdk package</div>
-		<div class="instr-body">
-			Type in the followign command in the terminal:
-			<div class="code">
-				sudo apt-get install openjdk-7-jdk
-			</div>
-			And type Y and press enter to accept the to be installed packages.
-			<div>
-				<div class="thumbnail">
-					<label>
-						<input type="checkbox"/>
-						<img id="img-linux-terminal" src="../../AIGG/img/linux-java-4.png" alt="Click to enlarge">
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:gale="http://gale.tue.nl/adaptation">
+	<div>
+		<ol>
+			<li> 
+				<div class="instr-header">
+					Open the terminal.
+				</div>
+				<div class="instr-body">
+					<div class="thumbnail">
+						<label>
+							<gale:if expr="${global#prefersThumbnails} > 6">
+								<gale:then>
+									<input type="checkbox" onclick="onThumbnailCheck(this.checked)" checked="checked"/>
+								</gale:then>
+								<gale:else>
+									<input type="checkbox" onclick="onThumbnailCheck(this.checked)"/>
+								</gale:else>
+							</gale:if>
+							<img id="img-linux-terminal" src="../../AIGG/img/linux-terminal.png" alt="Click to enlarge">
 							<span class="hover-text">
 								Click to enlarge
 							</span>
-						</img>
-					</label>
+							</img>
+						</label>
+					</div>
 				</div>
-			</div>
-		</div>
-	</li>
-	<li>
-		<div class="instr-header">
-			Check if the installation is succeeded
-		</div>
-		<div class="instr-body">
-			Type in the terminal:
-			<div class="code"> 
-				java -version
-			</div>
-			And check if output is similar to:
-			<div class="code">
-				gale@gale-server:~$ java -version <br />
-				java version "1.7.0_65" <br /> 
-				OpenJDK Runtime Environment (IcedTea 2.5.3) (7u71-2.5.3-0ubuntu0.14.04.1) <br />
-				OpenJDK 64-Bit Server VM (build 24.65-b04, mixed mode) <br />
-			</div>
-			Here the most important is that the Java version is like 1.7.0_xx, where the xx is any minor version number.
-			Also the version of the Java compiler should be checked. This can be done with the following command:
-			<div class="code">
-				javac -version
-			</div>
-			The output of this command should be something like:
-			<div class="code">
-				gale@gale-server:~$ javac -version 
-				javac 1.7.0_65 
-			</div>
-			
-			<div class="thumbnail">
-				<label>
-					<input type="checkbox"/>
-					<img id="img-linux-terminal" src="../../AIGG/img/linux-java-7.png" alt="Click to enlarge">
-						<span class="hover-text">
-							Click to enlarge
-						</span>
-					</img>
-				</label>
-			</div>
-			
-			
-			
-		</div>
-	</li>
-</ol>
-</div>
+			</li>
+	
+			<li>
+				<div class="instr-header">
+					Update the apt repository
+				</div>
+				<div class="instr-body">
+					Type in the following command in the terminal:
+					<div class="code">
+						 sudo apt-get update
+					</div>
+					When you press enter you will be requested to enter the password.
+				</div>
+			</li>
+	
+			<li> 
+				<div class="instr-header">Install the openjdk-7-jdk package</div>
+				<div class="instr-body">
+					Type in the followign command in the terminal:
+					<div class="code">
+						sudo apt-get install openjdk-7-jdk
+					</div>
+					And type Y and press enter to accept the to be installed packages.
+					<div>
+						<div class="thumbnail">
+							<label>
+								<gale:if expr="${global#prefersThumbnails} > 6">
+									<gale:then>
+										<input type="checkbox" onclick="onThumbnailCheck(this.checked)" checked="checked"/>
+									</gale:then>
+									<gale:else>
+										<input type="checkbox" onclick="onThumbnailCheck(this.checked)"/>
+									</gale:else>
+								</gale:if>
+								<img id="img-linux-terminal" src="../../AIGG/img/linux-terminal.png" alt="Click to enlarge">
+									<span class="hover-text">
+										Click to enlarge
+									</span>
+								</img>
+							</label>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="instr-header">
+					Check if the installation is succeeded
+				</div>
+				<div class="instr-body">
+					Type in the terminal:
+					<div class="code"> 
+						java -version
+					</div>
+					And check if output is similar to:
+					<div class="code">
+						gale@gale-server:~$ java -version <br />
+						java version "1.7.0_65" <br /> 
+						OpenJDK Runtime Environment (IcedTea 2.5.3) (7u71-2.5.3-0ubuntu0.14.04.1) <br />
+						OpenJDK 64-Bit Server VM (build 24.65-b04, mixed mode) <br />
+					</div>
+					Here the most important is that the Java version is like 1.7.0_xx, where the xx is any minor version number.
+					Also the version of the Java compiler should be checked. This can be done with the following command:
+					<div class="code">
+						javac -version
+					</div>
+					The output of this command should be something like:
+					<div class="code">
+						gale@gale-server:~$ javac -version 
+						javac 1.7.0_65 
+					</div>
+					<div class="thumbnail">
+						<label>
+							<gale:if expr="${global#prefersThumbnails} > 6">
+								<gale:then>
+									<input type="checkbox" onclick="onThumbnailCheck(this.checked)" checked="checked"/>
+								</gale:then>
+								<gale:else>
+									<input type="checkbox" onclick="onThumbnailCheck(this.checked)"/>
+								</gale:else>
+							</gale:if>
+							<img id="img-linux-terminal" src="../../AIGG/img/linux-java-7.png" alt="Click to enlarge">
+								<span class="hover-text">
+									Click to enlarge
+								</span>
+							</img>
+						</label>
+					</div>
+				</div>
+			</li>
+		</ol>
+	</div>
+</html>

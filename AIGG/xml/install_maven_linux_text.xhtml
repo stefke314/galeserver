@@ -1,3 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:gale="http://gale.tue.nl/adaptation">
 <div>
 	<ol>
 		<li> 
@@ -5,16 +9,23 @@
 				Open the terminal.
 			</div>
 			<div class="instr-body">
-			<div class="thumbnail">
-				<label>
-					<input type="checkbox"/>
-					<img src="../../AIGG/img/linux-terminal.png" alt="Click to enlarge">
-						<span class="hover-text">
-							Click to enlarge
-						</span>
-					</img>
-				</label>
-			</div>
+				<div class="thumbnail">
+					<label>
+						<gale:if expr="${global#prefersThumbnails} > 6">
+							<gale:then>
+								<input type="checkbox" onclick="onThumbnailCheck(this.checked)" checked="checked"/>
+							</gale:then>
+							<gale:else>
+								<input type="checkbox" onclick="onThumbnailCheck(this.checked)"/>
+							</gale:else>
+						</gale:if>
+						<img src="../../AIGG/img/linux-terminal.png" alt="Click to enlarge">
+							<span class="hover-text">
+								Click to enlarge
+							</span>
+						</img>
+					</label>
+				</div>			
 			</div>
 		</li>
 		
@@ -41,3 +52,4 @@
 		</li>
 	</ol>
 </div>
+</html>

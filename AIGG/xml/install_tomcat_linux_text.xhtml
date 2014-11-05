@@ -1,141 +1,167 @@
-<div>
-<ol>
-	<li> 
-		<div class="instr-header">
-			Open the terminal.
-		</div>
-		<div class="instr-body">
-		<div class="thumbnail">
-			<label>
-				<input type="checkbox"/>
-				<img src="../../AIGG/img/linux-terminal.png" alt="Click to enlarge">
-					<span class="hover-text">
-						Click to enlarge
-					</span>
-				</img>
-			</label>
-		</div>
-		</div>
-	</li>
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:gale="http://gale.tue.nl/adaptation">
+	<div>
+		<ol>
+			<li> 
+				<div class="instr-header">
+					Open the terminal.
+				</div>
+				<div class="instr-body">
+					<div class="thumbnail">
+						<label>
+							<gale:if expr="${global#prefersThumbnails} > 6">
+								<gale:then>
+									<input type="checkbox" onclick="onThumbnailCheck(this.checked)" checked="checked"/>
+								</gale:then>
+								<gale:else>
+									<input type="checkbox" onclick="onThumbnailCheck(this.checked)"/>
+								</gale:else>
+							</gale:if>
+							<img src="../../AIGG/img/linux-terminal.png" alt="Click to enlarge">
+								<span class="hover-text">
+									Click to enlarge
+								</span>
+							</img>
+						</label>
+					</div>
+				</div>
+			</li>
 	
 	
-	<li> 
-		<div class="instr-header">
-			Create gale directory
-		</div>
-		<div class="instr-body">
-			<div class="code">
-				mkdir gale
-			</div>
-		</div>
-	</li>
+			<li> 
+				<div class="instr-header">
+					Create gale directory
+				</div>
+				<div class="instr-body">
+					<div class="code">
+						mkdir gale
+					</div>
+				</div>
+			</li>
 	
-	<li> 
-		<div class="instr-header">
-			Go into the GALE folder
-		</div>
-		<div class="instr-body">
-			<div class="code">
-				cd gale
-			</div>
-		</div>
-	</li>
+			<li> 
+				<div class="instr-header">
+					Go into the GALE folder
+				</div>
+				<div class="instr-body">
+					<div class="code">
+						cd gale
+					</div>
+				</div>
+			</li>
 	
-	<li> 
-		<div class="instr-header">
-			Download the Tomcat 6 core installation files
-		</div>
-		<div class="instr-body">
-			The tar.gz file with the Tomcat 6 core installation files can be downloaded from tomcat.apache.org. You can do this by hand with the browser but also with a commandline command:
-			<div class="code">
-				wget http://apache.mirror1.spango.com/tomcat/tomcat-7/v7.0.56/bin/apache-tomcat-7.0.56.tar.gz
-			</div>
-		</div>
-	</li>
+			<li> 
+				<div class="instr-header">
+					Download the Tomcat 6 core installation files
+				</div>
+				<div class="instr-body">
+					The tar.gz file with the Tomcat 6 core installation files can be downloaded from tomcat.apache.org. You can do this by hand with the browser but also with a commandline command:
+					<div class="code">
+						wget http://apache.mirror1.spango.com/tomcat/tomcat-7/v7.0.56/bin/apache-tomcat-7.0.56.tar.gz
+					</div>
+				</div>
+			</li>
 
-	<li> 
-		<div class="instr-header">
-			Extract the tar.gz file
-		</div>
-		<div class="instr-body">
-			To extract the apache-tomcat-7.0.45.tar.gz file execute the following command: 
-			<div class="code">
-				tar xf apache-tomcat-7.0.45.tar.gz
-			</div>
-		</div>
-	</li>
+			<li> 
+				<div class="instr-header">
+					Extract the tar.gz file
+				</div>
+				<div class="instr-body">
+					To extract the apache-tomcat-7.0.45.tar.gz file execute the following command: 
+					<div class="code">
+						tar xf apache-tomcat-7.0.45.tar.gz
+					</div>
+				</div>
+			</li>
 	
-	<li> 
-		<div class="instr-header">
-			Renaming the folder
-		</div>
-		<div class="instr-body">
-			For convienience the folder apache-tomcat-7.0.56 will be renamed to 'tomcat':
-			<div class="code">
-				mv apache-tomcat-7.0.56 tomcat
-			</div>
-		</div>
-	</li>
+			<li> 
+				<div class="instr-header">
+					Renaming the folder
+				</div>
+				<div class="instr-body">
+					For convienience the folder apache-tomcat-7.0.56 will be renamed to 'tomcat':
+					<div class="code">
+						mv apache-tomcat-7.0.56 tomcat
+					</div>
+				</div>
+			</li>
 	
-	<li> 
-		<div class="instr-header">
-			Start the Tomcat server for the first time
-		</div>
-		<div class="instr-body">
-			To start the Tomcat server execute the following script:
-			<div class="code">
-				./tomcat/bin/startup.sh
-			</div>
-		</div>
-	</li>
+			<li> 
+				<div class="instr-header">
+					Start the Tomcat server for the first time
+				</div>
+				<div class="instr-body">
+					To start the Tomcat server execute the following script:
+					<div class="code">
+						./tomcat/bin/startup.sh
+					</div>
+				</div>
+			</li>
 	
-	<li> 
-		<div class="instr-header">
-			Check if the server has started correctly
-		</div>
-		<div class="instr-body">
-			Checking if the server has started correctly can be done by opening your browser and go to the localhost:8080 page. Now you should get the Tomcat page which is similar to:
-			<div class="thumbnail">
-				<label>
-					<input type="checkbox"/>
-					<img src="../../AIGG/img/linux-tomcat-3.png" alt="Click to enlarge">
-						<span class="hover-text">
-							Click to enlarge
-						</span>
-					</img>
-				</label>
-			</div>
-			Another way to check if the server has started correctly is by looking at the Catalina logs. This log contains the errors, warnings and info messages that each servlet generates. If something went wrong it should be logged in the catalina.out file. To show the last lines of the Catalina log type the following command:
-			<div class="code">
-				tail ./tomcat/logs/catalina.out
-			</div>
-			When the server has started successfully it should not show any errors and the message: "INFO: Server startup in xxxx ms" should be printed in the end.
+			<li> 
+				<div class="instr-header">
+					Check if the server has started correctly
+				</div>
+				<div class="instr-body">
+					Checking if the server has started correctly can be done by opening your browser and go to the localhost:8080 page. Now you should get the Tomcat page which is similar to:
+					<div class="thumbnail">
+						<label>
+							<gale:if expr="${global#prefersThumbnails} > 6">
+								<gale:then>
+									<input type="checkbox" onclick="onThumbnailCheck(this.checked)" checked="checked"/>
+								</gale:then>
+								<gale:else>
+									<input type="checkbox" onclick="onThumbnailCheck(this.checked)"/>
+								</gale:else>
+							</gale:if>
+							<img src="../../AIGG/img/linux-tomcat-3.png" alt="Click to enlarge">
+								<span class="hover-text">
+									Click to enlarge
+								</span>
+							</img>
+						</label>
+					</div>
+			
+					Another way to check if the server has started correctly is by looking at the Catalina logs. This log contains the errors, warnings and info messages that each servlet generates. If something went wrong it should be logged in the catalina.out file. To show the last lines of the Catalina log type the following command:
+					<div class="code">
+						tail ./tomcat/logs/catalina.out
+					</div>
+					When the server has started successfully it should not show any errors and the message: "INFO: Server startup in xxxx ms" should be printed in the end.
 
-			<div class="thumbnail">
-				<label>
-					<input type="checkbox"/>
-					<img src="../../AIGG/img/linux-tomcat-4.png" alt="Click to enlarge">
-						<span class="hover-text">
-							Click to enlarge
-						</span>
-					</img>
-				</label>
-			</div>
-			When you want to watch the log continuously you can also add the '-f' flag after the tail command. Then whenever there is written to the log file, this is shown in the terminal. You could of course also use any other text editor to browse through the complete logs.
-		</div>
-	</li>
+					<div class="thumbnail">
+						<label>
+							<gale:if expr="${global#prefersThumbnails} > 6">
+								<gale:then>
+									<input type="checkbox" onclick="onThumbnailCheck(this.checked)" checked="checked"/>
+								</gale:then>
+								<gale:else>
+									<input type="checkbox" onclick="onThumbnailCheck(this.checked)"/>
+								</gale:else>
+							</gale:if>
+							<img src="../../AIGG/img/linux-tomcat-4.png" alt="Click to enlarge">
+								<span class="hover-text">
+									Click to enlarge
+								</span>
+							</img>
+						</label>
+					</div>	
+					When you want to watch the log continuously you can also add the '-f' flag after the tail command. Then whenever there is written to the log file, this is shown in the terminal. You could of course also use any other text editor to browse through the complete logs.
+				</div>
+			</li>
 	
-	<li> 
-		<div class="instr-header">
-			Shutting down the Tomcat server
-		</div>
-		<div class="instr-body">
-			To shutdown the Tomcat server execute the following script:
-			<div class="code">
-				./tomcat/bin/shutdown.sh
-			</div>
-		</div>
-	</li>
-</ol>
-	
-</div>
+			<li> 
+				<div class="instr-header">
+					Shutting down the Tomcat server
+				</div>
+				<div class="instr-body">
+					To shutdown the Tomcat server execute the following script:
+					<div class="code">
+						./tomcat/bin/shutdown.sh
+					</div>
+				</div>
+			</li>
+		</ol>
+	</div>
+</html>
